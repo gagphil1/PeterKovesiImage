@@ -1,5 +1,8 @@
 ## upstream seems to use Mac
 .DS_Store
 
+## Donwloaded source
+MatlabFns.zip
+
 ## or Makefile downloads files here
 target/
