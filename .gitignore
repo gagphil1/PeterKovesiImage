@@ -1,5 +1,6 @@
 ## upstream seems to use Mac
 .DS_Store
+*.asv
 
 ## Donwloaded source
 MatlabFns.zip
