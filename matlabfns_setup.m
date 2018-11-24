@@ -6,7 +6,8 @@ function setup_matlabfns
     else
         libdir = 'MatlabFns';
     end
-    
+
+    addpath(fullfile(basedir, libdir));    
     addpath(fullfile(basedir, libdir, 'Blender'));
     addpath(fullfile(basedir, libdir, 'Colourmaps'));
     addpath(fullfile(basedir, libdir, 'FingerPrints'));
