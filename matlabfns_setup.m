@@ -1,4 +1,4 @@
-function setup_matlabfns
+function matlabfns_setup
     % basepath of lib
     basedir = fileparts(mfilename('fullpath'));
     if exist('matlabfns', 'dir')
