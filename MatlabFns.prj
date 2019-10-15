@@ -1,0 +1,260 @@
+<deployment-project plugin="plugin.toolbox" plugin-version="1.0">
+  <configuration file="C:\Users\gagphil1\Documents\PeterKovesiImage\MatlabFns.prj" location="C:\Users\gagphil1\Documents\PeterKovesiImage" name="MatlabFns" target="target.toolbox" target-name="Package Toolbox">
+    <param.appname>MatlabFns</param.appname>
+    <param.authnamewatermark>Peter Kovesi</param.authnamewatermark>
+    <param.email>pk@peterkovesi.com</param.email>
+    <param.company />
+    <param.summary>MATLAB and Octave Functions for Computer Vision and Image Processing.</param.summary>
+    <param.description>Peter Kovesi.   MATLAB and Octave Functions for Computer Vision and Image Processing. Available from:
+&lt;http://www.peterkovesi.com/matlabfns/&gt;.
+Packaging by Philippe Gagné, https://github.com/gagphil1/PeterKovesiImage</param.description>
+    <param.screenshot>${PROJECT_ROOT}\pkchromagram.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.output>${PROJECT_ROOT}\MatlabFns.mltbx</param.output>
+    <param.products.name>
+      <item>MATLAB</item>
+      <item>Image Processing Toolbox</item>
+    </param.products.name>
+    <param.products.id>
+      <item>1</item>
+      <item>17</item>
+    </param.products.id>
+    <param.products.version>
+      <item>9.7</item>
+      <item>11.0</item>
+    </param.products.version>
+    <param.platforms />
+    <param.guid>a348eec7-2541-4bd9-9163-54c158ee4a21</param.guid>
+    <param.exclude.filters />
+    <param.exclude.pcodedmfiles>true</param.exclude.pcodedmfiles>
+    <param.examples />
+    <param.demosxml />
+    <param.apps />
+    <param.registered.apps />
+    <param.docs />
+    <param.getting.started.guide />
+    <param.matlabpath.excludes>
+      <item>/C__/Users/gagphil1/Documents/matlab_env/MATLAB/matlabfns/Spatial</item>
+      <item>/C__/Users/gagphil1/Documents/matlab_env/MATLAB/matlabfns/Shapes</item>
+      <item>/C__/Users/gagphil1/Documents/matlab_env/MATLAB/matlabfns/Shapelet</item>
+      <item>/C__/Users/gagphil1/Documents/matlab_env/MATLAB/matlabfns/Rotations</item>
+      <item>/C__/Users/gagphil1/Documents/matlab_env/MATLAB/matlabfns/Robust</item>
+      <item>/C__/Users/gagphil1/Documents/matlab_env/MATLAB/matlabfns/PhaseCongruency</item>
+      <item>/C__/Users/gagphil1/Documents/matlab_env/MATLAB/matlabfns/Misc</item>
+      <item>/C__/Users/gagphil1/Documents/matlab_env/MATLAB/matlabfns/Match</item>
+      <item>/C__/Users/gagphil1/Documents/matlab_env/MATLAB/matlabfns/LineSegments</item>
+      <item>/C__/Users/gagphil1/Documents/matlab_env/MATLAB/matlabfns/GreyTrans</item>
+      <item>/C__/Users/gagphil1/Documents/matlab_env/MATLAB/matlabfns/Geosci</item>
+      <item>/C__/Users/gagphil1/Documents/matlab_env/MATLAB/matlabfns/FrequencyFilt</item>
+      <item>/C__/Users/gagphil1/Documents/matlab_env/MATLAB/matlabfns/FingerPrints</item>
+      <item>/C__/Users/gagphil1/Documents/matlab_env/MATLAB/matlabfns/Colourmaps</item>
+      <item>/C__/Users/gagphil1/Documents/matlab_env/MATLAB/matlabfns/Blender</item>
+    </param.matlabpath.excludes>
+    <param.javaclasspath.excludes />
+    <param.exported.on.package>false</param.exported.on.package>
+    <param.required.addons />
+    <param.matlab.project.id />
+    <param.matlab.project.name />
+    <param.release.start />
+    <param.release.end />
+    <param.release.current.only>false</param.release.current.only>
+    <param.compatiblity.windows>true</param.compatiblity.windows>
+    <param.compatiblity.macos>true</param.compatiblity.macos>
+    <param.compatiblity.linux>true</param.compatiblity.linux>
+    <param.compatiblity.matlabonline>true</param.compatiblity.matlabonline>
+    <param.installation.map />
+    <param.additional.sw.names />
+    <param.additional.sw.licenses />
+    <param.additional.sw.win.url />
+    <param.additional.sw.mac.url />
+    <param.additional.sw.linux.url />
+    <unset>
+      <param.company />
+      <param.version />
+      <param.output />
+      <param.platforms />
+      <param.exclude.filters />
+      <param.exclude.pcodedmfiles />
+      <param.examples />
+      <param.demosxml />
+      <param.apps />
+      <param.registered.apps />
+      <param.docs />
+      <param.getting.started.guide />
+      <param.javaclasspath.excludes />
+      <param.exported.on.package />
+      <param.required.addons />
+      <param.matlab.project.id />
+      <param.matlab.project.name />
+      <param.release.start />
+      <param.release.end />
+      <param.release.current.only />
+      <param.compatiblity.windows />
+      <param.compatiblity.macos />
+      <param.compatiblity.linux />
+      <param.compatiblity.matlabonline />
+      <param.installation.map />
+      <param.additional.sw.names />
+      <param.additional.sw.licenses />
+      <param.additional.sw.win.url />
+      <param.additional.sw.mac.url />
+      <param.additional.sw.linux.url />
+    </unset>
+    <fileset.rootdir>
+      <file>${PROJECT_ROOT}\MatlabFns</file>
+    </fileset.rootdir>
+    <fileset.rootfiles>
+      <file>${PROJECT_ROOT}\MatlabFns\articlestyle.css</file>
+      <file>${PROJECT_ROOT}\MatlabFns\Blender</file>
+      <file>${PROJECT_ROOT}\MatlabFns\citesite.html</file>
+      <file>${PROJECT_ROOT}\MatlabFns\Colourmaps</file>
+      <file>${PROJECT_ROOT}\MatlabFns\Contents.m</file>
+      <file>${PROJECT_ROOT}\MatlabFns\FingerPrints</file>
+      <file>${PROJECT_ROOT}\MatlabFns\FrequencyFilt</file>
+      <file>${PROJECT_ROOT}\MatlabFns\Geosci</file>
+      <file>${PROJECT_ROOT}\MatlabFns\GreyTrans</file>
+      <file>${PROJECT_ROOT}\MatlabFns\index.html</file>
+      <file>${PROJECT_ROOT}\MatlabFns\license.html</file>
+      <file>${PROJECT_ROOT}\MatlabFns\LineSegments</file>
+      <file>${PROJECT_ROOT}\MatlabFns\Match</file>
+      <file>${PROJECT_ROOT}\MatlabFns\Misc</file>
+      <file>${PROJECT_ROOT}\MatlabFns\new.gif</file>
+      <file>${PROJECT_ROOT}\MatlabFns\octaveinfo.html</file>
+      <file>${PROJECT_ROOT}\MatlabFns\othersites.html</file>
+      <file>${PROJECT_ROOT}\MatlabFns\PhaseCongruency</file>
+      <file>${PROJECT_ROOT}\MatlabFns\pkstylesheet.css</file>
+      <file>${PROJECT_ROOT}\MatlabFns\Projective</file>
+      <file>${PROJECT_ROOT}\MatlabFns\Robust</file>
+      <file>${PROJECT_ROOT}\MatlabFns\Rotations</file>
+      <file>${PROJECT_ROOT}\MatlabFns\Shapelet</file>
+      <file>${PROJECT_ROOT}\MatlabFns\Shapes</file>
+      <file>${PROJECT_ROOT}\MatlabFns\Spatial</file>
+      <file>${PROJECT_ROOT}\MatlabFns\updated.gif</file>
+      <file>${PROJECT_ROOT}\MatlabFns\WWWImages</file>
+    </fileset.rootfiles>
+    <fileset.depfun.included>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Blender\collectncheckimages.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Blender\logisticweighting.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Blender\swipe.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Colourmaps\cmap.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Colourmaps\colorcet.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Colourmaps\colourmappath.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Colourmaps\equalisecolourmap.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Colourmaps\generatelabslice.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Colourmaps\labmaplib.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Colourmaps\linearrgbmap.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Colourmaps\ternarymaps.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\FingerPrints\freqest.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\FingerPrints\plotridgeorient.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\FingerPrints\ridgefilter.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\FingerPrints\ridgefreq.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\FingerPrints\ridgeorient.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\FingerPrints\ridgesegment.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\FrequencyFilt\filtergrid.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\FrequencyFilt\highboostfilter.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\FrequencyFilt\highpassfilter.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\FrequencyFilt\lowpassfilter.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\FrequencyFilt\perfft2.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\FrequencyFilt\wavenumbergrid.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Geosci\freqderiv.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\GreyTrans\histtruncate.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\GreyTrans\interpfields.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\GreyTrans\normalise.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\GreyTrans\remapim.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\LineSegments\drawedgelist.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\LineSegments\edgelink.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\LineSegments\findendsjunctions.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\LineSegments\findisolatedpixels.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\LineSegments\lineseg.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\LineSegments\maxlinedev.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Match\matchbycorrelation.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Match\matchbymonogenicphase.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Misc\applycolourmap.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Misc\basename.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Misc\bbspline.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Misc\circularstruct.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Misc\cmyk2rgb.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Misc\dbscan.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Misc\fillnan.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Misc\implace.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Misc\imwritesc.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Misc\lms2rgb.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Misc\namenpath.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Misc\pbspline.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Misc\polyfit2d.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Misc\polyval2d.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Misc\rgb2cmyk.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Misc\rgb2lab.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Misc\rgb2lms.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Misc\show.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Misc\showangularim.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Misc\sineramp.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Misc\strendswith.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Misc\xyz2lms.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\PhaseCongruency\highpassmonogenic.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\PhaseCongruency\monofilt.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Robust\fitline3d.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Robust\fitplane.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Robust\iscolinear.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Robust\randomsample.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Robust\ransac.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Robust\ransacfitfundmatrix.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Robust\ransacfithomography.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Robust\ransacfitline.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Robust\ransacfitplane.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Rotations\angleaxis2matrix.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Rotations\newquaternion.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Rotations\quaternionrotate.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Shapelet\grad2slanttilt.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Shapelet\needleplotst.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Shapes\icosahedron.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Spatial\derivative5.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Spatial\finddisconnected.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Spatial\gaussfilt.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Spatial\harris.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Spatial\impad.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Spatial\imtrim.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Spatial\integaverage.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Spatial\integralimage.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Spatial\makeregionsdistinct.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Spatial\maskimage.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Spatial\mcleanupregions.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Spatial\nonmaxsuppts.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Spatial\regionadjacency.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Spatial\renumberregions.m</file>
+      <file>C:\Users\gagphil1\Documents\matlab_env\MATLAB\matlabfns\Spatial\solveinteg.m</file>
+    </fileset.depfun.included>
+    <fileset.depfun.excluded />
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}" name="MatlabFns.mltbx" optional="false">C:\Users\gagphil1\Documents\PeterKovesiImage\MatlabFns.mltbx</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2019b</root>
+      <toolboxes>
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

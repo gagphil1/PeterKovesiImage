@@ -41,4 +41,4 @@ function showfft(im, figNo)
 
     imagesc(fftshift(abs(im)));
     colormap(gray); title(Title), axis('image')
-    if ~Octave; truesize(figNo) end
+    if ~Octave; truesize(figNo); end
