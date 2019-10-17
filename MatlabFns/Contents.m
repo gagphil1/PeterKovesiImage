@@ -1,5 +1,5 @@
 % Peter Kovesi's Functions for Computer Vision and Image Processing
-% Version 2019-10-17 15:08:31
+% Version 2019-10-17 17:26:23
 %
 % Complete information in <https://www.peterkovesi.com/matlabfns/index.html>
 %
