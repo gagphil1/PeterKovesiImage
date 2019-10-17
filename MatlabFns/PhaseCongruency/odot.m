@@ -1,4 +1,4 @@
-% ODOT - Demonstrates odot and oslash operators on 1D signal
+%ODOT Demonstrates odot and oslash operators on 1D signal
 %
 % Usage:  [smooth, energy] = odot(f, K)
 %

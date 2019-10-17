@@ -1,25 +1,35 @@
-% TOGGLEFIGS  Convenient switching between figures to aid comparison
+%TOGGLEFIGS Convenient switching between figures to aid comparison
 %
 % Usage 1:   togglefigs
 %
 % Use arrow keys to index through figures that are currently being displayed, or
 % enter single digit figure numbers to select figures directly.
-% Hit ''X'' to exit.
+% Hit ''x'' to exit.
 %
 % Usage 2:   togglefigs(figs)
 % Argument:  figs - figure numbers entered as an array or individually
 %                   separated by commas, to toggle.  Hitting 
 %                   any key will cycle to next figure.
 %
-% Example if you have 3 figures you wish to compare manually drag them until
-% they are perfectly overlaid, then use
+% The axes of the images are linked so that pan and zoom are synchronised on all
+% images.
+%
+% For example, if you have 3 figures you wish to compare use:
 % >> togglefigs(1, 2, 3)  or
 % >> togglefigs(1:3)
+%
+% See also: SYNCSHOW
 
-% PK March 2010
-%    May   2011 Modified to automatically find all figures and allow you to
-%               use arrow keys and single digit figure numbers.
-%    Feb   2014 Automatically allign the positions of the specified figures
+% Peter Kovesi
+% peterkovesi.com
+% March 2010
+% May   2011 Modified to automatically find all figures and allow you to
+%            use arrow keys and single digit figure numbers.
+% Feb   2014 Automatically align the positions of the specified figures.
+% June  2018 Axes of all images are linked so that pan and zoom are
+%            synchronised.
+
+% To do: Needs a rewrite to get rid of all the the repeated code.
 
 function togglefigs(varargin)
     
@@ -33,9 +43,16 @@ function togglefigs(varargin)
             return
         else
             fprintf('Use arrow keys to index through figures, or enter single\n');
-            fprintf('digit figure numbers to select figures directly, hit ''X'' to exit\n'); 
+            fprintf('digit figure numbers to select figures directly, hit ''X'' to exit\n');
         end
 
+        % Identify axes for each figure and link them so that zoom and pan on all images
+        % are synchronised.
+        for n = 1:length(figs)
+            ax(n) = get(figs(n), 'CurrentAxes');
+        end
+        linkaxes(ax, 'xy');
+        
         
         % Set figures so that they all have the same position
         posn = get(figs(1),'Position');  
@@ -66,6 +83,13 @@ function togglefigs(varargin)
     else  % Cycle through the list of figure numbers supplied in the argument list
         fprintf('Hit any key to toggle figures, ''X'' to exit\n'); 
         
+        % Identify axes for each figure and link them so that zoom and pan on all images
+        % are synchronised.
+        for n = 1:length(figs)
+            ax(n) = get(figs(n), 'CurrentAxes');
+        end
+        linkaxes(ax, 'xy');        
+        
         % Set figures so that they all have the same position
         posn = get(figs(1),'Position');  
         for n = 2:length(figs)
@@ -88,10 +112,8 @@ function togglefigs(varargin)
 %------------------------------------------
 function figs = getfigs(arg)
     
-%    figs = zeros(size(arg));
     figs = [];
     for n = 1:length(arg)
- %       figs(n) = arg{n};
          figs = [figs arg{n}];
     end
     

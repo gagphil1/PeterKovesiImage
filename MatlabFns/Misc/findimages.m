@@ -1,4 +1,4 @@
-% FINDIMAGES - invokes image dialog box for multiple image loading
+%FINDIMAGES invokes image dialog box for multiple image loading
 %
 % Usage:  [im, filename] = findimages
 %

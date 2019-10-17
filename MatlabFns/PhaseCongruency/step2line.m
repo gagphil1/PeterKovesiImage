@@ -1,4 +1,4 @@
-%  STEP2LINE - Generate test image interpolating a step to a line.
+%STEP2LINE Generate test image interpolating a step to a line.
 %
 %  Function to generate a test image where the feature type changes
 %  from a step edge to a line feature from top to bottom

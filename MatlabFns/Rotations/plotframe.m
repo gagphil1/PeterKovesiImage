@@ -1,4 +1,4 @@
-% PLOTFRAME - plots a coordinate frame specified by a homogeneous transform 
+%PLOTFRAME plots a coordinate frame specified by a homogeneous transform 
 %
 % Usage: function plotframe(T, len, label, colr)
 %
@@ -14,7 +14,7 @@
 % See also: ROTX, ROTY, ROTZ, TRANS, INVHT
 
 % Peter Kovesi
-% www.peterkovesi.com
+% peterkovesi.com
 % 2001       - Original version
 % April 2016 - Allowance for 3x3 rotation matrices as as well as 4x4 homogeneous
 %              transforms

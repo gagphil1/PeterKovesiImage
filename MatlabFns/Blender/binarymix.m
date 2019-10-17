@@ -1,4 +1,4 @@
-% BINARYMIX  Image blending and swiping between two images
+%BINARYMIX Image blending and swiping between two images
 %
 % Function blends two images. Each image is coloured with two lightness
 % matched colours that sum to white.  Like a ternary image but binary!

@@ -1,4 +1,4 @@
-% ORIENTATIONPLOT - Visualizes orientation image with dithered oriented lines
+%ORIENTATIONPLOT Visualizes orientation image with dithered oriented lines
 %
 % Usage:  orientationplot(oim, 'mag', mag, 'spacing', spacing, 'fig', fig, ...
 %                         'linelen', linelen, 'holdon', true/false)

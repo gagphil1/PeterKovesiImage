@@ -1,4 +1,4 @@
-% CYCLEMIX  Multi-image blending over a cyclic sequence of images
+%CYCLEMIX Multi-image blending over a cyclic sequence of images
 %
 % Usage: cyclemix(im, figNo, nodeLabel)
 %

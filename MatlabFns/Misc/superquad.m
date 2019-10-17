@@ -1,4 +1,4 @@
-% SUPERQUAD - generates a superquadratic surface
+%SUPERQUAD generates a superquadratic surface
 %
 % Usage:  [x,y,z] = superquad(xscale, yscale, zscale, e1, e2, n)
 %

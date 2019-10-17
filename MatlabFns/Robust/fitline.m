@@ -1,4 +1,4 @@
-% FITLINE - Least squares fit of a line to a set of points
+%FITLINE Least squares fit of a line to a set of points
 %
 % Usage:   [C, dist] = fitline(XY)
 %

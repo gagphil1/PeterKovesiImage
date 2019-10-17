@@ -1,4 +1,4 @@
-% IMWRITEFLOATTIFF - Write single channel floating point data to a tiff file
+%IMWRITEFLOATTIFF Write single channel floating point data to a tiff file
 %
 % Usage: imwritefloattiff(im, fname)
 %

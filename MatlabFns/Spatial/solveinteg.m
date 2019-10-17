@@ -1,6 +1,6 @@
 % SOLVEINTEG
 %
-% This function is used by INTEGGAUSFILT to solve for the multiple averaging
+%THIS function is used by INTEGGAUSFILT to solve for the multiple averaging
 % filter widths needed to approximate a Gaussian of desired standard deviation.
 %
 % Usage: [wl, wu, m, sigmaActual] = solveinteg(sigma, n)
@@ -33,10 +33,7 @@
 % See also: INTEGGAUSSFILT, INTEGAVERAGE, INTEGRALIMAGE
 
 % Copyright (c) 2009 Peter Kovesi
-% School of Computer Science & Software Engineering
-% The University of Western Australia
-% pk at csse uwa edu au
-% http://www.csse.uwa.edu.au/
+% www.peterkovesi.com/matlabfns/
 % 
 % Permission is hereby granted, free of charge, to any person obtaining a copy
 % of this software and associated documentation files (the "Software"), to deal

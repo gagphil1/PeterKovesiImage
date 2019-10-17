@@ -1,4 +1,4 @@
-% APPLYCOLOURMAP Applies colourmap to a single channel image to obtain an RGB result
+%APPLYCOLOURMAP Applies colourmap to a single channel image to obtain an RGB result
 %
 % Usage: rgbim = applycolourmap(im, map, range)
 %

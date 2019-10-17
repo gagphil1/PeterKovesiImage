@@ -1,6 +1,6 @@
 % CIRCULARSTRUCT
 %
-% Function to construct a circular structuring element
+%FUNCTION to construct a circular structuring element
 % for morphological operations.
 %
 % function strel = circularstruct(radius)

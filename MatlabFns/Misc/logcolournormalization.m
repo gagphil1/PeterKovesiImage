@@ -1,4 +1,4 @@
-% LOGCOLOURNORMALIZATION - Chromaticity, grey, or comprehensive colour normalization.
+%LOGCOLOURNORMALIZATION Chromaticity, grey, or comprehensive colour normalization.
 %
 % Useage: [imgcn, imgn] = logcolournormalization(img, option, scale)
 %
@@ -77,7 +77,7 @@ function [imgcn, imgn] = logcolournormalization(img, option, scale)
     % geometry and illumination magnitude.
     if strncmpi(option, 'chromaticity',4) || ...
        strncmpi(option, 'comprehensive', 4) 
-        meanv = mean(imgcn,3);
+        meanv = mean(imgcn,3) + eps;
         for ch = 1:3
             imgcn(:,:,ch) = imgcn(:,:,ch) - meanv;
         end

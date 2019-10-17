@@ -1,4 +1,4 @@
-% PHASESYMMONO - phase symmetry of an image using monogenic filters
+%PHASESYMMONO phase symmetry of an image using monogenic filters
 %
 % This function calculates the phase symmetry of points in an image.
 % This is a contrast invariant measure of symmetry.  This function can be

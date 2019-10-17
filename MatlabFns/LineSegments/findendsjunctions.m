@@ -1,4 +1,4 @@
-% FINDENDSJUNCTIONS - find junctions and endings in a line/edge image
+%FINDENDSJUNCTIONS find junctions and endings in a line/edge image
 %
 % Usage: [rj, cj, re, ce] = findendsjunctions(edgeim, disp)
 % 

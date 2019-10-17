@@ -1,4 +1,4 @@
-% INVRPY - inverse of Roll Pitch Yaw transform
+%INVRPY inverse of Roll Pitch Yaw transform
 %
 % Usage:  [rpy1, rpy2] = invrpy(RPY)
 % 
@@ -16,10 +16,7 @@
 % MIT Press 1981. Page 70
 %
 % Copyright (c) 2001 Peter Kovesi
-% School of Computer Science & Software Engineering
-% The University of Western Australia
-% pk at csse uwa edu au
-% http://www.csse.uwa.edu.au/
+% peterkovesi.com
 %
 % May 2015 Help documentation corrected!
 

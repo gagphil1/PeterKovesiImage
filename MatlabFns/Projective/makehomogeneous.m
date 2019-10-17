@@ -1,4 +1,4 @@
-% MAKEHOMOGENEOUS - Appends a scale of 1 to array inhomogeneous coordinates 
+%MAKEHOMOGENEOUS Appends a scale of 1 to array inhomogeneous coordinates 
 %
 % Usage:  hx = makehomogeneous(x)
 %

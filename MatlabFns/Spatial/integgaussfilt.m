@@ -1,4 +1,4 @@
-% INTEGGAUSSFILT - Approximate Gaussian filtering using integral filters
+%INTEGGAUSSFILT Approximate Gaussian filtering using integral filters
 %
 % This function approximates Gaussian filtering by repeatedly applying
 % averaging filters.  The averaging is performed via integral images which
@@ -36,9 +36,7 @@
 % See also: INTEGAVERAGE, SOLVEINTEG, INTEGRALIMAGE, GAUSSFILT
 
 % Copyright (c) 2009-2010 Peter Kovesi
-% Centre for Exploration Targeting
-% The University of Western Australia
-% http://www.csse.uwa.edu.au/~pk/research/matlabfns/
+% www.peterkovesi.com/matlabfns/
 % 
 % Permission is hereby granted, free of charge, to any person obtaining a copy
 % of this software and associated documentation files (the "Software"), to deal

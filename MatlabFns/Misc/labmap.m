@@ -1,4 +1,4 @@
-% LABMAP - Generates a colourmap based on L*a*b* space
+%LABMAP Generates a colourmap based on L*a*b* space
 %
 % This function can generate a wide range of colourmaps but it can be a bit
 % difficult to drive...

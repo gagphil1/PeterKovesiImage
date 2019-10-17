@@ -1,4 +1,4 @@
-% UNDISTORTIMAGE - Removes lens distortion from an image
+%UNDISTORTIMAGE Removes lens distortion from an image
 %
 % Usage:  nim = undistortimage(im, f, ppx, ppy, k1, k2, k3, p1, p2)
 %

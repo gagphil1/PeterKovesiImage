@@ -1,4 +1,4 @@
-% NOISECOMP - Function for denoising an image
+%NOISECOMP Function for denoising an image
 %
 % function cleanimage = noisecomp(image, k, nscale, mult, norient, softness)
 %
@@ -20,13 +20,10 @@
 % Peter Kovesi, "Phase Preserving Denoising of Images". 
 % The Australian Pattern Recognition Society Conference: DICTA'99. 
 % December 1999. Perth WA. pp 212-217
-% http://www.cs.uwa.edu.au/pub/robvis/papers/pk/denoise.ps.gz. 
-%
+% https://www.peterkovesi.com/papers/denoise.pdf
 
 % Copyright (c) 1998-2000 Peter Kovesi
-% School of Computer Science & Software Engineering
-% The University of Western Australia
-% http://www.csse.uwa.edu.au/
+% www.peterkovesi.com
 % 
 % Permission is hereby granted, free of charge, to any person obtaining a copy
 % of this software and associated documentation files (the "Software"), to deal

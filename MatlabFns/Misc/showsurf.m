@@ -1,4 +1,4 @@
-% SHOWSURF - shows parametric surface in a convenient way
+%SHOWSURF shows parametric surface in a convenient way
 %
 % This function wraps up the commands I usually use to display a surface.
 %

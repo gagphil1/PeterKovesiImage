@@ -1,4 +1,4 @@
-% RGB2NRGB - RGB to normalised RGB
+%RGB2NRGB RGB to normalised RGB
 %
 % Usage: nrgb = rgb2nrgb(im, offset)
 %

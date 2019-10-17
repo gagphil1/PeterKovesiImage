@@ -1,4 +1,4 @@
-% MATPRINT - prints a matrix with specified format string
+%MATPRINT prints a matrix with specified format string
 %
 % Usage: matprint(a, fmt, fid)
 %

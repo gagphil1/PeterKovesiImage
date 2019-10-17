@@ -1,4 +1,4 @@
-% PSEUDOGREY Pseudogrey scale colour map with 2551 levels.
+%PSEUDOGREY Pseudogrey scale colour map with 2551 levels.
 %
 % Usage: map = pseudogrey
 %

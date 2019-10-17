@@ -1,4 +1,4 @@
-% PLOTGABORFILTERS - Plots log-Gabor filters
+%PLOTGABORFILTERS Plots log-Gabor filters
 %
 % The purpose of this code is to see what effect the various parameter
 % settings have on the formation of a log-Gabor filter bank.

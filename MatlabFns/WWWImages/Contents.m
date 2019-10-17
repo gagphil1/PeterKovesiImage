@@ -1,3 +1,0 @@
-% WWWIMAGES
-%
-% Files

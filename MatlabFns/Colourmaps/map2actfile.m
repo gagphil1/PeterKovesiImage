@@ -1,4 +1,4 @@
-% MAP2ACTFILE   Writes colourmap to .act file Adobe Colourmap Table
+%MAP2ACTFILE Writes colourmap to .act file Adobe Colourmap Table
 %
 % Usage: map2actfile(map, fname)
 %

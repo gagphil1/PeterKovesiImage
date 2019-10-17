@@ -1,4 +1,4 @@
-% CMAP Library of perceptually uniform colour maps
+%CMAP Library of perceptually uniform colour maps
 %
 % Usage:  1:  [map, name, desc] = cmap(I, param_name, value ...)
 %         2:  cmap
@@ -168,7 +168,8 @@
 % Copyright (c) 2013-2018 Peter Kovesi
 % Centre for Exploration Targeting
 % The University of Western Australia
-% peter.kovesi at uwa edu au
+%
+% peterkovesi.com
 % 
 % Permission is hereby granted, free of charge, to any person obtaining a copy
 % of this software and associated documentation files (the "Software"), to deal
@@ -252,7 +253,7 @@ function [map, name, desc] = cmap(varargin)
       % black to red to yellow to white.  Here the spline order set to 3 and
       % additional control points to get a similar colour map path but with the
       % corners at red and yellow rounded off.  The best heat map out there!
-     case {'L3', 'KRYW', 'HEAT', 'FIRE'}
+     case {'L3', 'KRYW', 'HEAT'}
       desc = 'Black-Red-Yellow-White heat colour map';
       attributeStr = 'linear';
       hueStr = 'kryw';
@@ -342,10 +343,10 @@ function [map, name, desc] = cmap(varargin)
        colpts = [20  59 -80
                  35  28 -66
                  45 -14 -29
-                 60 -62 60
-                 85  -10  85
-                 95 -15 70
-                 98  0  0];
+                 60 -62  60
+                 85 -10  85
+                 95 -15  70
+                 98   0   0];
        
      case {'L10', 'GEOGRAPHIC'}
       desc = ['A "geographical" colour map.  '...
@@ -389,7 +390,7 @@ function [map, name, desc] = cmap(varargin)
      % salience no matter what channel-colour assignment is made.  The colour
      % maps are specified as straight lines in RGB space.  For their derivation
      % see
-     % http://peterkovesi.com/projects/colourmaps/ColourmapTheory/index.html#ternary
+     % https://arxiv.org/abs/1509.03700
      
      case {'L13', 'REDTERNARY'}
       desc = 'red colour map for ternary images';
@@ -448,7 +449,7 @@ function [map, name, desc] = cmap(varargin)
 
         % Interpolate chroma but use a 'gamma' of 0.5 to keep the colours more saturated.
         sat1 = 0; sat2 = 80;
-        sat = ([sat1:(sat2-sat1)/(nsteps-1):sat2]/sat2).^.5 * sat2;
+        sat = ([sat1:(sat2-sat1)/(nsteps-1):sat2]/sat2).^0.5 * sat2;
 
         l1 = 100; l2 = 25;        % Linearly interpolate lightness
         l = l1:(l2-l1)/(nsteps-1):l2;
@@ -472,7 +473,7 @@ function [map, name, desc] = cmap(varargin)
 
         % Interpolate chroma but use a 'gamma' of 0.5 to keep the colours more saturated.
         sat1 = 0; sat2 = 84;
-        sat = ([sat1:(sat2-sat1)/(nsteps-1):sat2]/sat2).^.5 * sat2;
+        sat = ([sat1:(sat2-sat1)/(nsteps-1):sat2]/sat2).^0.5 * sat2;
 
         l1 = 100; l2 = 45;        % Linearly interpolate lightness
         l = l1:(l2-l1)/(nsteps-1):l2;
@@ -544,7 +545,17 @@ function [map, name, desc] = cmap(varargin)
                 20  ch2ab(49, 37)];
       sigma = 7;
       splineorder = 2; 
+ 
       
+    case {'D1B', 'BWO'}
+      desc = 'blue - white - dark orange colour map';
+      attributeStr = 'diverging';
+      hueStr = 'bwr';
+      colpts = [40  ch2ab(50,-64)
+                95  0   0
+                40  ch2ab(50, 77)];   
+      sigma = 7;
+      splineorder = 2; 
       
      case {'D2', 'GWV'}
       desc = 'Diverging green - white - violet colour map';
@@ -603,8 +614,9 @@ function [map, name, desc] = cmap(varargin)
       hueStr = 'bjy';
       colpts = [30 ch2ab(89, -59)
                 60 0 0                 
-                90 ch2ab(89,96)];
+                90 ch2ab(89, 96)];
       splineorder = 2;
+      
       
      case {'D8', 'BJR'} % Linear diverging  blue - grey - red
       desc = 'Linear-diverging blue - grey - red';
@@ -1337,80 +1349,6 @@ function [map, name, desc] = cmap(varargin)
                 75 ch2ab(70, 70)
                 90 ch2ab(88,100)];
       splineorder = 3;
-
-      
-     case 'XC15B'   % Francesca Samsel's beautiful c15b blue-white-green
-                    % diverging map.  Map is reproduced in its original form
-                    % with no equalisation of lightness gradient.  (It is
-                    % close to being equal as originally designed.)
-      desc = 'Francesca Samsel''s c15b blue-white-green diverging map';
-      attributeStr = 'diverging';
-      hueStr = 'bwg';
-      colourspace = 'RGB';
-      colpts = [0.231373 0.247059 0.329412
-                0.266667 0.305882 0.411765
-                0.286275 0.368627 0.478431
-                0.301961 0.439216 0.549020
-                0.309804 0.521569 0.619608
-                0.380392 0.631373 0.690196
-                0.454902 0.745098 0.760784
-                0.541176 0.831373 0.803922
-                0.631373 0.901961 0.843137
-                0.768627 0.960784 0.894118
-                0.901961 1.000000 0.949020
-                0.768627 0.960784 0.835294
-                0.635294 0.909804 0.698039
-                0.552941 0.850980 0.576471
-                0.490196 0.780392 0.466667
-                0.447059 0.701961 0.384314
-                0.407843 0.611765 0.305882
-                0.360784 0.509804 0.231373
-                0.305882 0.400000 0.160784
-                0.231373 0.278431 0.098039
-                0.141176 0.149020 0.043137];
-      
-      sigma = 0;  
-      W = [0 0 0];  % Set to zero to reproduce original map exactly
-      splineorder = 2;             
-
-     case 'XC15BM'   % Francesca's map modified slightly with additional
-                     % starting control point to create symmetric lightness
-                     % profile. Alternatively, remove the near black colour at
-                     % the end.  Map is equalised for lightness gradient.  A
-                     % really nice map!
-      desc = 'Francesca Samsel''s c15b blue-white-green diverging map';
-      attributeStr = 'diverging';
-      hueStr = 'bwg';
-      colourspace = 'RGB';
-      colpts = [%0.120752 0.138784 0.214192 % additional point to match lightness at end
-                0.231373 0.247059 0.329412
-                0.266667 0.305882 0.411765
-                0.286275 0.368627 0.478431
-                0.301961 0.439216 0.549020
-                0.309804 0.521569 0.619608
-                0.380392 0.631373 0.690196
-                0.454902 0.745098 0.760784
-                0.541176 0.831373 0.803922
-                0.631373 0.901961 0.843137
-                0.768627 0.960784 0.894118
-                0.901961 1.000000 0.949020
-                0.768627 0.960784 0.835294
-                0.635294 0.909804 0.698039
-                0.552941 0.850980 0.576471
-                0.490196 0.780392 0.466667
-                0.447059 0.701961 0.384314
-                0.407843 0.611765 0.305882
-                0.360784 0.509804 0.231373
-                0.305882 0.400000 0.160784
-%                0.231373 0.278431 0.098039
-                  0.2218    0.2690    0.0890 % tweeked to match start lightness
-               % 0.141176 0.149020 0.043137
-               ];
-      
-      sigma = 7;  
-      W = [1 0 0];
-      splineorder = 2;             
-      
       
      case 'XD7C'  % Linear diverging  green - grey - yellow
                   % Reasonable, perhaps easier on the eye than D7

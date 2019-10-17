@@ -1,4 +1,4 @@
-% READERMAPPERLUTFILE Read ER Mapper LUT colour map file
+%READERMAPPERLUTFILE Read ER Mapper LUT colour map file
 %
 % Usage: [map, name, description] = readermapperlutfile(filename)
 %

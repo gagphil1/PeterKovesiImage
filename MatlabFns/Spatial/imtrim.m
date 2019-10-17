@@ -1,4 +1,4 @@
-% IMTRIM - removes a boundary of an image
+%IMTRIM removes a boundary of an image
 %
 % Usage:  trimmedim = imtrim(im, b)
 %
@@ -10,9 +10,8 @@
 % See also: IMPAD, IMSETBORDER
 
 % Peter Kovesi
-% Centre for Exploration Targeting
-% The University of Western Australia
-% http://peterkovesi.com/matlabfns/
+% www.peterkovesi.com/matlabfns/
+% 
 % June  2010
 
 function tim = imtrim(im, b)

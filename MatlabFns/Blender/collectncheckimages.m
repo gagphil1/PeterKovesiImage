@@ -1,4 +1,4 @@
-% COLLECTNCHECKIMAGES Collects and checks images prior to blending
+%COLLECTNCHECKIMAGES Collects and checks images prior to blending
 %
 % Usage: [im, nImages, fname, pathname] = collectncheckimages(im)
 %
@@ -81,6 +81,11 @@ function [im, nImages, fname, pathname] = collectncheckimages(im)
             fname{n} = sprintf('%d', n);
         end
         pathname = '';
+    
+    elseif isnumeric(im) % Assume this is a multichannel image. Copy into a
+                         % single element cell array for subsequent code.
+        tmp = im; im = []; im{1} = tmp;
+        nImages = 1;
     end    
     
     if nImages == 1  % See if we have a multi-channel image

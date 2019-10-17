@@ -1,4 +1,4 @@
-% PLOTPOINT - Plots point with specified mark and optional text label.
+%PLOTPOINT Plots point with specified mark and optional text label.
 %
 % Function to plot 2D points with an optionally specified
 % marker and optional text label.

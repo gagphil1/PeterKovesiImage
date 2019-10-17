@@ -1,4 +1,4 @@
-% MAKEREGIONSDISTINCT Ensures labeled segments are distinct
+%MAKEREGIONSDISTINCT Ensures labeled segments are distinct
 %
 % Usage: [seg, maxlabel] = makeregionsdistinct(seg, connectivity)
 %
@@ -18,9 +18,7 @@
 % See also: SLIC, CLEANUPREGIONS, RENUMBERREGIONS
 
 % Copyright (c) 2013 Peter Kovesi
-% Centre for Exploration Targeting
-% The University of Western Australia
-% peter.kovesi at uwa edu au
+% www.peterkovesi.com/matlabfns/
 % 
 % Permission is hereby granted, free of charge, to any person obtaining a copy
 % of this software and associated documentation files (the "Software"), to deal

@@ -1,4 +1,4 @@
-% HLINE - Plot 2D lines defined in homogeneous coordinates.
+%HLINE Plot 2D lines defined in homogeneous coordinates.
 %
 % Function for ploting 2D homogeneous lines defined by 2 points
 % or a line defined by a single homogeneous vector

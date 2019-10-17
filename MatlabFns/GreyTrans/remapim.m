@@ -1,4 +1,4 @@
-% REMAPIM - Remaps image intensity values
+%REMAPIM Remaps image intensity values
 %
 % Usage:   newim = remapim(im, x, y, rescale)
 %                                        \

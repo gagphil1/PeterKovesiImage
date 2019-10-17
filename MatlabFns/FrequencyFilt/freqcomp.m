@@ -1,4 +1,4 @@
-% FREQCOMP - Demonstrates image reconstruction from Fourier components
+%FREQCOMP Demonstrates image reconstruction from Fourier components
 %
 % Usage:  recon = freqcomp(im, Npts, delay)
 %

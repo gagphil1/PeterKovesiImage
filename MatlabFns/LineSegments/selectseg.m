@@ -1,4 +1,4 @@
-% SELECTSEG - Interactive selection of linesegments with mouse.
+%SELECTSEG Interactive selection of linesegments with mouse.
 %
 % Usage: segs = selectseg(seglist);
 %                            

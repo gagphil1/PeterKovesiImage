@@ -1,4 +1,4 @@
-% IMAGEPT2PLANE - Project image points to a plane and return their 3D locations
+%IMAGEPT2PLANE Project image points to a plane and return their 3D locations
 %
 % Usage:  pt = imagept2plane(C, xy, planeP, planeN)
 %

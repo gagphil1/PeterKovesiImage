@@ -1,4 +1,4 @@
-% MASKIMAGE Apply mask to image
+%MASKIMAGE Apply mask to image
 %
 % Usage: maskedim = maskimage(im, mask, col)
 %
@@ -13,10 +13,7 @@
 % See also; DRAWREGIONBOUNDARIES
 
 % Peter Kovesi
-% Centre for Exploration Targeting
-% School of Earth and Environment
-% The University of Western Australia
-% peter.kovesi at uwa edu au
+% www.peterkovesi.com/matlabfns/
 %
 % Feb 2013
 

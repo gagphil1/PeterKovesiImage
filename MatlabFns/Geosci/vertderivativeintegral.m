@@ -1,4 +1,4 @@
-% VERTDERIVATIVEINTEGRAL  Vertical derivative or integral of potential field data
+%VERTDERIVATIVEINTEGRAL Vertical derivative or integral of potential field data
 %
 % Usage: vd = vertderivativeintegral(im, order, hx, hy, padding)
 %

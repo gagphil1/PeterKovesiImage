@@ -1,4 +1,4 @@
-% FINDDISCONNECTED find groupings of disconnected labeled regions
+%FINDDISCONNECTED find groupings of disconnected labeled regions
 %
 % Usage: list = finddisconnected(l)
 %
@@ -15,9 +15,7 @@
 % See also: MCLEANUPREGIONS, REGIONADJACENCY
 
 % Copyright (c) 2013 Peter Kovesi
-% Centre for Exploration Targeting
-% The University of Western Australia
-% peter.kovesi at uwa edu au
+% www.peterkovesi.com/matlabfns/
 % 
 % Permission is hereby granted, free of charge, to any person obtaining a copy
 % of this software and associated documentation files (the "Software"), to deal

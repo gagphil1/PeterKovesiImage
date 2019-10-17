@@ -1,4 +1,4 @@
-% GREYTRANS - Interactive greyscale manipulation of an image (RGB or greyscale)
+%GREYTRANS Interactive greyscale manipulation of an image (RGB or greyscale)
 %
 % Usage:   [newim, x, y] = greytrans(im, npts)
 %

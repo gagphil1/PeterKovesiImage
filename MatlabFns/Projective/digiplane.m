@@ -1,4 +1,4 @@
-% DIGIPLANE - Digitise and transform points within a planar region in an image.
+%DIGIPLANE Digitise and transform points within a planar region in an image.
 %
 % This function allows you to digitise points within a planar region of an
 % image for which an inverse perspective transformation has been previously

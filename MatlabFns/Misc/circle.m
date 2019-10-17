@@ -1,12 +1,13 @@
-% CIRCLE - Draws a circle.
+%CIRCLE Draws a circle.
 %
-% Usage: circle(c, r, n, col)
+% Usage: circle(c, r, n, col, lw)
 %
-% Arguments:  c -  A 2-vector [x y] specifying the centre.
-%             r -  The radius.
-%             n -  Optional number of sides in the polygonal approximation.
-%                  (defualt is 16 sides)
-%           col -  optional colour, defaults to blue.
+% Arguments:  c - A 2-vector [x y] specifying the centre.
+%             r - The radius.
+%             n - Optional number of sides in the polygonal approximation.
+%                 (defualt is 16 sides)
+%           col - optional colour, defaults to blue.
+%            lw - Optional line width.
 
 % Copyright (c) 1996-2005 Peter Kovesi
 % School of Computer Science & Software Engineering
@@ -22,7 +23,7 @@
 %
 % The Software is provided "as is", without warranty of any kind.
 
-function h = circle(c, r, nsides, col)
+function h = circle(c, r, nsides, col, lw)
     
     if nargin == 2
 	nsides = 16;
@@ -31,8 +32,11 @@ function h = circle(c, r, nsides, col)
     if nargin < 4
 	col = [0 0 1];
     end
+    
+    if ~exist('lw', 'var'), lw = 1; end
         
     nsides = max(round(nsides),3); % Make sure it is an integer >= 3
     
     a = [0:2*pi/nsides:2*pi];
-    h = line(r*cos(a)+c(1), r*sin(a)+c(2), 'color', col);
+    h = line(r*cos(a)+c(1), r*sin(a)+c(2), 'color', col,...
+             'linewidth', lw);

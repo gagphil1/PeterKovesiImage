@@ -1,4 +1,4 @@
-%  DERESPOLAR - Desresolves image in polar coordinates.
+%DERESPOLAR Desresolves image in polar coordinates.
 %
 %  Performs a deresolution operation on an image using Polar Coordinates
 %

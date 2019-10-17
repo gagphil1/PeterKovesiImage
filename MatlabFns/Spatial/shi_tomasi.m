@@ -1,4 +1,4 @@
-% SHI_TOMASI - Shi - Tomasi corner detector
+%SHI_TOMASI Shi - Tomasi corner detector
 %
 % Usage:                 cim = shi_tomasi(im, sigma)
 %                [cim, r, c] = shi_tomasi(im, sigma, keyword-value options...)
@@ -55,9 +55,7 @@
 % Computer Vision and Pattern Recognition. 1994.
 
 % Copyright (c) 2016 Peter Kovesi
-% Centre for Exploration Targeting
-% The University of Western Australia
-% http://www.csse.uwa.edu.au/~pk/research/matlabfns/
+% www.peterkovesi.com/matlabfns/
 % 
 % Permission is hereby granted, free of charge, to any person obtaining a copy
 % of this software and associated documentation files (the "Software"), to deal

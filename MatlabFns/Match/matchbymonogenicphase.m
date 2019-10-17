@@ -1,4 +1,4 @@
-% MATCHBYMONOGENICPHASE - match image feature points using monogenic phase data
+%MATCHBYMONOGENICPHASE match image feature points using monogenic phase data
 %
 % Function generates putative matches between previously detected
 % feature points in two images by looking for points that have minimal

@@ -1,4 +1,4 @@
-% MONOFILT - Apply monogenic filters to an image to obtain 2D analytic signal
+%MONOFILT Apply monogenic filters to an image to obtain 2D analytic signal
 %
 % Implementation of Felsberg's monogenic filters
 %
@@ -54,10 +54,8 @@
 % Michael Felsberg and Gerald Sommer. "The Monogenic Signal" IEEE
 % Transactions on Signal Processing, 49(12):3136-3144, December 2001
 
-% Copyright (c) 2004-2005 Peter Kovesi
-% School of Computer Science & Software Engineering
-% The University of Western Australia
-% http://www.csse.uwa.edu.au/
+% Copyright (c) 2004-2017 Peter Kovesi
+% www.peterkovesi.com
 % 
 % Permission is hereby granted, free of charge, to any person obtaining a copy
 % of this software and associated documentation files (the "Software"), to deal

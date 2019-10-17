@@ -1,4 +1,4 @@
-% INTEGRALFILTER - performs filtering using an integral image
+%INTEGRALFILTER performs filtering using an integral image
 %
 % This function exploits an integral image to perform filtering operations
 % (using rectangular filters) on an image in time that only depends on the 
@@ -50,10 +50,7 @@
 % IJCV 57(2). pp 137-154. 2004.
 
 % Copyright (c) 2007 Peter Kovesi
-% School of Computer Science & Software Engineering
-% The University of Western Australia
-% pk at csse uwa edu au
-% http://www.csse.uwa.edu.au/
+% www.peterkovesi.com/matlabfns/
 % 
 % Permission is hereby granted, free of charge, to any person obtaining a copy
 % of this software and associated documentation files (the "Software"), to deal

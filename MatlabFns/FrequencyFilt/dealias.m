@@ -1,4 +1,4 @@
-% DEALIAS - Filter image to try to remove aliasing artifacts
+%DEALIAS Filter image to try to remove aliasing artifacts
 %
 % Usage: newimg = dealias(img, cx, cy, n, padding, periodic)
 %

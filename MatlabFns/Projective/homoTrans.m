@@ -1,4 +1,4 @@
-% HOMOTRANS - homogeneous transformation of points
+%HOMOTRANS homogeneous transformation of points
 %
 % Function to perform a transformation on homogeneous points/lines
 % The resulting points are normalised to have a homogeneous scale of 1

@@ -1,4 +1,4 @@
-% CMYK2RGB Basic conversion of CMYK colour table to RGB
+%CMYK2RGB Basic conversion of CMYK colour table to RGB
 %
 % Usage:  map = cmyk2rgb(cmyk)
 %

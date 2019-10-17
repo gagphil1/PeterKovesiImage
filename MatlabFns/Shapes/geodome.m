@@ -1,4 +1,4 @@
-% GEODOME   Generates geodesic sphere 
+%GEODOME Generates geodesic sphere 
 %
 % Usage:  [xyz, A, F] = geodome(frequency, radius)
 %

@@ -1,4 +1,4 @@
-% MAP2ERMAPPERLUTFILE Writes ER Mapper LUT colour map file
+%MAP2ERMAPPERLUTFILE Writes ER Mapper LUT colour map file
 %
 % Usage: map2ermapperlutfile(map, filename, name, description)
 %

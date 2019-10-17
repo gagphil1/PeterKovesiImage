@@ -1,4 +1,4 @@
-% RIDGEFILTER - enhances fingerprint image via oriented filters
+%RIDGEFILTER enhances fingerprint image via oriented filters
 %
 % Function to enhance fingerprint image via oriented filters
 %

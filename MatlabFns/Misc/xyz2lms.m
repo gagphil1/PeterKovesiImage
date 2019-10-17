@@ -1,4 +1,4 @@
-% XYZ2LMS - XYZ to LMS colour space conversion
+%XYZ2LMS XYZ to LMS colour space conversion
 %
 % Usage: LMS = rgb2lms(xyz)
 %

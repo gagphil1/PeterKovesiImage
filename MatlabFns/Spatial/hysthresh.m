@@ -1,4 +1,4 @@
-% HYSTHRESH - Hysteresis thresholding
+%HYSTHRESH Hysteresis thresholding
 %
 % Usage: bw = hysthresh(im, T1, T2)
 %
@@ -18,10 +18,8 @@
 % connectivity is used.
 
 % Copyright (c) 1996-2005 Peter Kovesi
-% School of Computer Science & Software Engineering
-% The University of Western Australia
-% http://www.csse.uwa.edu.au/
-% 
+% www.peterkovesi.com/matlabfns/
+%
 % Permission is hereby granted, free of charge, to any person obtaining a copy
 % of this software and associated documentation files (the "Software"), to deal
 % in the Software without restriction, subject to the following conditions:

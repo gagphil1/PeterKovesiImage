@@ -1,4 +1,4 @@
-% SHOWFFT - Displays amplitude spectrum of an fft.
+%SHOWFFT Displays amplitude spectrum of an fft.
 %
 % Usage:  showfft(ft, figNo)
 %

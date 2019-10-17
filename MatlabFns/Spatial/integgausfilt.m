@@ -1,4 +1,4 @@
-% INTEGGAUSFILT - Approximate Gaussian filtering using integral filters
+%INTEGGAUSFILT Approximate Gaussian filtering using integral filters
 %
 % This function approximates Gaussian filtering by repeatedly applying
 % averaging filters.  The averaging is performed via integral images which

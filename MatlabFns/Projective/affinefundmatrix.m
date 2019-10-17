@@ -1,4 +1,4 @@
-% AFFINEFUNDMATRIX - computes affine fundamental matrix from 4 or more points
+%AFFINEFUNDMATRIX computes affine fundamental matrix from 4 or more points
 %
 % Function computes the affine fundamental matrix from 4 or more matching
 % points in a stereo pair of images.  The Gold Standard algorithm given

@@ -1,4 +1,4 @@
-% CLIQUEMIX  Multi-image blending and swiping over a clique
+%CLIQUEMIX Multi-image blending and swiping over a clique
 %
 % Function allows blending and swiping between any pair within a collection of images
 %

@@ -1,4 +1,4 @@
-% IMWRITESC - Writes an image to file, rescaling if necessary.
+%IMWRITESC Writes an image to file, rescaling if necessary.
 %
 % Usage:   imwritesc(im,name)
 %         

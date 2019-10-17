@@ -1,4 +1,4 @@
-% FINDIMAGE - invokes image dialog box for interactive image loading
+%FINDIMAGE invokes image dialog box for interactive image loading
 %
 % Usage:  [im, filename] = findimage(disp, c)
 %

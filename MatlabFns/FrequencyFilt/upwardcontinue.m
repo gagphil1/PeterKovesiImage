@@ -1,4 +1,4 @@
-% UPWARDCONTINUE  Upward continuation for magnetic or gravity potential field data
+%UPWARDCONTINUE Upward continuation for magnetic or gravity potential field data
 %
 % Usage: [up, pim, psf] = upwardcontinue(im, h, dx, dy)
 %

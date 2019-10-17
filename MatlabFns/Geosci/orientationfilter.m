@@ -1,4 +1,4 @@
-% ORIENTATIONFILTER  Generate orientation selective filterings of an image
+%ORIENTATIONFILTER Generate orientation selective filterings of an image
 %
 % Usage:  oim = orientationfilter(im, norient, angoverlap, boost, cutoff, histcut)
 %

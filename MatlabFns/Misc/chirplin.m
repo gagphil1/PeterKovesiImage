@@ -1,4 +1,4 @@
-% CHIRPLIN   Generates linear chirp test image
+%CHIRPLIN Generates linear chirp test image
 %
 % The test image consists of a linear chirp signal in the horizontal direction
 % with the amplitude of the chirp being modulated from 1 at the top of the image

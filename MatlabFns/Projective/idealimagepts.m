@@ -1,4 +1,4 @@
-% IDEALIMAGEPTS - Ideal image points with no distortion.
+%IDEALIMAGEPTS Ideal image points with no distortion.
 %
 % Usage:  xyideal = idealimagepts(C, xy)
 %

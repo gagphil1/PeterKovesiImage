@@ -1,4 +1,4 @@
-% EDGELIST2IMAGE - transfers edgelist data back into a 2D image array
+%EDGELIST2IMAGE transfers edgelist data back into a 2D image array
 %
 % Usage:      im = edgelist2image(edgelist, rowscols)
 %

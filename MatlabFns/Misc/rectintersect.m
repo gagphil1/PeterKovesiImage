@@ -1,4 +1,4 @@
-% RECTINTERSECT - Returns true if rectangles intersect
+%RECTINTERSECT Returns true if rectangles intersect
 %
 % Usage:  intersect = rectintersect(r1, r2) 
 %

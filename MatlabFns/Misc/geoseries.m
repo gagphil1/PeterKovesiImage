@@ -1,4 +1,4 @@
-% GEOSERIES Generate geometric series
+%GEOSERIES Generate geometric series
 %
 % Usage 1: s = geoseries(s1, mult, n)
 %

@@ -1,4 +1,4 @@
-% VERTDERIV  Vertical derivative of potential field data
+%VERTDERIV Vertical derivative of potential field data
 %
 % Usage: vd = vertderiv(im, order, padding)
 %

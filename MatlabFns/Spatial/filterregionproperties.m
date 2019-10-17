@@ -1,4 +1,4 @@
-% FILTERREGIONPROPERTIES  Filters regions on their property values
+%FILTERREGIONPROPERTIES Filters regions on their property values
 % 
 % Usage: bw = filterregionproperties(bw, {property, fn, value}, { ... } )
 %
@@ -29,9 +29,7 @@
 % See also: REGIONPROPS
 
 % Copyright (c) 2013 Peter Kovesi
-% Centre for Exploration Targeting
-% The University of Western Australia
-% peter.kovesi at uwa edu au
+% www.peterkovesi.com/matlabfns/
 % 
 % Permission is hereby granted, free of charge, to any person obtaining a copy
 % of this software and associated documentation files (the "Software"), to deal

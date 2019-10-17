@@ -1,4 +1,4 @@
-% DERIVATIVE5 - 5-Tap 1st and 2nd discrete derivatives
+%DERIVATIVE5 5-Tap 1st and 2nd discrete derivatives
 %
 % This function computes 1st and 2nd derivatives of an image using the 5-tap
 % coefficients given by Farid and Simoncelli.  The results are significantly
@@ -34,9 +34,7 @@
 % Multi-Dimensional Signals" IEEE Trans. Image Processing. 13(4): 496-508 (2004)
 
 % Copyright (c) 2010 Peter Kovesi
-% Centre for Exploration Targeting
-% The University of Western Australia
-% peterkovesi.com
+% www.peterkovesi.com/matlabfns/
 % 
 % Permission is hereby granted, free of charge, to any person obtaining a copy
 % of this software and associated documentation files (the "Software"), to deal
@@ -48,6 +46,7 @@
 % The Software is provided "as is", without warranty of any kind.
 %
 % April 2010
+% May   2019 - Correction to calculation of dxy. Thanks to Sebastian Gesemann.
 
 function varargout = derivative5(im, varargin)
 
@@ -85,13 +84,10 @@ function varargout = derivative5(im, varargin)
     % Compute derivatives.  Note that in the 1st call below MATLAB's conv2
     % function performs a 1D convolution down the columns using p then a 1D
     % convolution along the rows using d1. etc etc.
-    gx = false;
     
     for n = 1:length(varargin)
       if strcmpi('x', varargin{n})
           varargout{n} = conv2(p, d1, im, 'same');    
-          gx = true;   % Record that gx is available for gxy if needed
-          gxn = n;
       elseif strcmpi('y', varargin{n})
           varargout{n} = conv2(d1, p, im, 'same');
       elseif strcmpi('xx', varargin{n})
@@ -99,12 +95,7 @@ function varargout = derivative5(im, varargin)
       elseif strcmpi('yy', varargin{n})
           varargout{n} = conv2(d2, p, im, 'same');
       elseif strcmpi('xy', varargin{n}) || strcmpi('yx', varargin{n})
-          if gx
-              varargout{n} = conv2(d1, p, varargout{gxn}, 'same');
-          else
-              gx = conv2(p, d1, im, 'same');    
-              varargout{n} = conv2(d1, p, gx, 'same');
-          end
+          varargout{n} = conv2(d1, d1, im, 'same');
       else
           error('''%s'' is an unrecognized derivative option',varargin{n});
       end

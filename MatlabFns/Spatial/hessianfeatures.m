@@ -1,4 +1,4 @@
-% HESSIANFEATURES  - Computes determiant of hessian features in an image.
+%HESSIANFEATURES Computes determiant of hessian features in an image.
 %
 % Usage: hdet = hessianfeatures(im, sigma)
 %
@@ -24,9 +24,7 @@
 % See also: HARRIS, NOBLE, SHI_TOMASI, DERIVATIVE5, NONMAXSUPPTS
 
 % Copyright (c) 2007-2016 Peter Kovesi
-% Centre for Exploration Targeting
-% The University of Western Australia
-% peter.kovesi at uwa edu au
+% www.peterkovesi.com/matlabfns/
 % 
 % Permission is hereby granted, free of charge, to any person obtaining a copy
 % of this software and associated documentation files (the "Software"), to deal

@@ -1,4 +1,4 @@
-% SLANTTILT2GRAD - slant and tilt to gradient in x y 
+%SLANTTILT2GRAD slant and tilt to gradient in x y 
 %
 % Function to convert a matrix of slant and tilt values to
 % surface gradients.

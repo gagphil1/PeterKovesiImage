@@ -1,4 +1,4 @@
-% Function to make ramps test surface for shape from shapelet testing
+%FUNCTION to make ramps test surface for shape from shapelet testing
 %
 % Usage:
 %           function [z,s,t] = testp(noise)

@@ -1,4 +1,4 @@
-% TESTDBSCAN   Program to test/demonstrate the DBSCAN clustering algorithm
+%TESTDBSCAN Program to test/demonstrate the DBSCAN clustering algorithm
 %
 % Simple usage:             testdbscan;
 %

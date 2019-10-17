@@ -1,4 +1,4 @@
-% LINEARRGBMAP Linear rgb colourmap from black to a specified colour
+%LINEARRGBMAP Linear rgb colourmap from black to a specified colour
 %
 % Usage: map = linearrgbmap(C, N)
 %

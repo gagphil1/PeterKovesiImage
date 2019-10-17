@@ -1,4 +1,4 @@
-% ADJCONTRAST - Adjusts image contrast using sigmoid function.
+%ADJCONTRAST Adjusts image contrast using sigmoid function.
 %
 % function g = adjcontrast(im, gain, cutoff)
 %

@@ -1,4 +1,4 @@
-% INTERPFIELDS  - Interpolates lines on a field extracted from a video frame.
+%INTERPFIELDS Interpolates lines on a field extracted from a video frame.
 %
 % Function to interpolate intermediate lines on odd or even
 % fields extracted from a video frame

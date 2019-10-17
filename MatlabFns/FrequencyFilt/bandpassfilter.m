@@ -1,4 +1,4 @@
-% BANDPASSFILTER - Constructs a band-pass butterworth filter
+%BANDPASSFILTER Constructs a band-pass butterworth filter
 %
 % usage: f = bandpassfilter(sze, cutin, cutoff, n)
 % 

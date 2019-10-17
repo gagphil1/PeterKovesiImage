@@ -1,4 +1,4 @@
-% FASTRADIAL - Loy and Zelinski's fast radial feature detector
+%FASTRADIAL Loy and Zelinski's fast radial feature detector
 %
 % An implementation of Loy and Zelinski's fast radial feature detector
 %
@@ -28,9 +28,7 @@
 % interest.  IEEE PAMI, Vol. 25, No. 8, August 2003. pp 959-973.
 
 % Copyright (c) 2004-2010 Peter Kovesi
-% Centre for Exploration Targeting
-% The University of Western Australia
-% http://www.csse.uwa.edu.au/~pk/research/matlabfns/
+% www.peterkovesi.com/matlabfns/
 % 
 % Permission is hereby granted, free of charge, to any person obtaining a copy
 % of this software and associated documentation files (the "Software"), to deal

@@ -1,4 +1,4 @@
-% INTEGRALIMAGE - computes integral image of an image
+%INTEGRALIMAGE computes integral image of an image
 %
 % Usage:  intim = integralimage(im)
 %
@@ -17,10 +17,7 @@
 % IJCV 57(2). pp 137-154. 2004.
 
 % Copyright (c) 2006 Peter Kovesi
-% School of Computer Science & Software Engineering
-% The University of Western Australia
-% pk at csse uwa edu au
-% http://www.csse.uwa.edu.au/
+% www.peterkovesi.com/matlabfns/
 % 
 % Permission is hereby granted, free of charge, to any person obtaining a copy
 % of this software and associated documentation files (the "Software"), to deal

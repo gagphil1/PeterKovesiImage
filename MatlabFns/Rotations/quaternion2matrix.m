@@ -1,4 +1,4 @@
-% QUATERNION2MATRIX - Quaternion to a 4x4 homogeneous transformation matrix
+%QUATERNION2MATRIX Quaternion to a 4x4 homogeneous transformation matrix
 %
 %  Usage:  T = quaternion2matrix(Q)
 %
@@ -8,10 +8,7 @@
 % See also MATRIX2QUATERNION, NEWQUATERNION, QUATERNIONROTATE
 
 % Copyright (c) 2008 Peter Kovesi
-% School of Computer Science & Software Engineering
-% The University of Western Australia
-% pk at csse uwa edu au
-% http://www.csse.uwa.edu.au/
+% peterkovesi.com
 % 
 % Permission is hereby granted, free of charge, to any person obtaining a copy
 % of this software and associated documentation files (the "Software"), to deal

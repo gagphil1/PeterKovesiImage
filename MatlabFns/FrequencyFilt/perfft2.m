@@ -1,4 +1,4 @@
-% PERFFT2  2D Fourier transform of Moisan's periodic image component
+%PERFFT2 2D Fourier transform of Moisan's periodic image component
 %
 % Usage: [P, S, p, s] = perfft2(im)
 %

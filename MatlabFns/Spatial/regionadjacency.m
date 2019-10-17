@@ -1,4 +1,4 @@
-% REGIONADJACENCY Computes adjacency matrix for image of labeled segmented regions
+%REGIONADJACENCY Computes adjacency matrix for image of labeled segmented regions
 %
 % Usage:  [Am, Al] = regionadjacency(L, connectivity)
 %
@@ -22,10 +22,7 @@
 % See also: CLEANUPREGIONS, RENUMBERREGIONS, SLIC
 
 % Copyright (c) 2013 Peter Kovesi
-% Centre for Exploration Targeting
-% School of Earth and Environment
-% The University of Western Australia
-% peter.kovesi at uwa edu au
+% www.peterkovesi.com/matlabfns/
 %
 % Permission is hereby granted, free of charge, to any person obtaining a copy
 % of this software and associated documentation files (the "Software"), to deal

@@ -1,4 +1,4 @@
-% FITLINE3D - Fits a line to a set of 3D points
+%FITLINE3D Fits a line to a set of 3D points
 %
 % Usage:   [L] = fitline3d(XYZ)
 %

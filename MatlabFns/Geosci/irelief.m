@@ -1,4 +1,4 @@
-% IRELIEF  Interactive Relief Shading
+%IRELIEF Interactive Relief Shading
 %
 % Usage:  irelief(im, rgbim, figNo)
 %

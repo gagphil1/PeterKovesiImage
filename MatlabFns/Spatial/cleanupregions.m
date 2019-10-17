@@ -1,4 +1,4 @@
-% CLEANUPREGIONS   Cleans up small segments in an image of segmented regions
+%CLEANUPREGIONS Cleans up small segments in an image of segmented regions
 %
 % Usage: [seg, Am] = cleanupregions(seg, areaThresh, connectivity)
 %
@@ -33,10 +33,7 @@
 % See also: MCLEANUPREGIONS, REGIONADJACENCY, RENUMBERREGIONS
 
 % Copyright (c) 2010 Peter Kovesi
-% Centre for Exploration Targeting
-% School of Earth and Environment
-% The University of Western Australia
-% peter.kovesi at uwa edu au
+% www.peterkovesi.com/matlabfns/
 %
 % Permission is hereby granted, free of charge, to any person obtaining a copy
 % of this software and associated documentation files (the "Software"), to deal

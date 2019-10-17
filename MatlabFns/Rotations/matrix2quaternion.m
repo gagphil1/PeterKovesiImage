@@ -1,4 +1,4 @@
-% MATRIX2QUATERNION - Homogeneous matrix to quaternion
+%MATRIX2QUATERNION Homogeneous matrix to quaternion
 %
 % Converts 4x4 homogeneous rotation matrix to quaternion
 %
@@ -10,10 +10,7 @@
 % See Also QUATERNION2MATRIX
 
 % Copyright (c) 2008 Peter Kovesi
-% School of Computer Science & Software Engineering
-% The University of Western Australia
-% pk at csse uwa edu au
-% http://www.csse.uwa.edu.au/
+% peterkovesi.com
 % 
 % Permission is hereby granted, free of charge, to any person obtaining a copy
 % of this software and associated documentation files (the "Software"), to deal

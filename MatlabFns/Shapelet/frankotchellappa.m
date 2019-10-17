@@ -1,4 +1,4 @@
-% FRANKOTCHELLAPPA  - Generates integrable surface from gradients
+%FRANKOTCHELLAPPA Generates integrable surface from gradients
 %
 % An implementation of Frankot and Chellappa'a algorithm for constructing
 % an integrable surface from gradient information.

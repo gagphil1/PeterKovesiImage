@@ -1,4 +1,4 @@
-% ADAPTIVETHRESH - Wellner's adaptive thresholding
+%ADAPTIVETHRESH Wellner's adaptive thresholding
 %
 % Thresholds an image using a threshold that is varied across the image relative
 % to the local mean, or median, at that point in the image.  Works quite well on

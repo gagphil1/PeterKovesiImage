@@ -1,4 +1,4 @@
-% HIGHBOOSTFILTER - Constructs a high-boost Butterworth filter.
+%HIGHBOOSTFILTER Constructs a high-boost Butterworth filter.
 %
 % usage: f = highboostfilter(sze, cutoff, n, boost)
 % 

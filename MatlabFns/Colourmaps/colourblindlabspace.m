@@ -1,4 +1,4 @@
-% COLOURBLINDLABSPACE  Visualization of colour blind colour spaces in Lab
+%COLOURBLINDLABSPACE Visualization of colour blind colour spaces in Lab
 %
 % This function displays a representation of the protanopic/deuteranopic or
 % tritanopic colour spaces within the Lab colour space. 

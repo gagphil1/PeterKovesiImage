@@ -1,4 +1,4 @@
-% IMPLACE - place image at specified location within larger image
+%IMPLACE place image at specified location within larger image
 %
 % Usage: newim = implace(im1, im2, roff, coff)
 %

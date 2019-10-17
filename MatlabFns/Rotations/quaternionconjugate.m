@@ -1,4 +1,4 @@
-% QUATERNIONCONJUGATE - Conjugate of a quaternion
+%QUATERNIONCONJUGATE Conjugate of a quaternion
 %
 % Usage: Qconj = quaternionconjugate(Q)
 %
@@ -8,10 +8,7 @@
 % See also: NEWQUATERNION, QUATERNIONROTATE, QUATERNIONPRODUCT
 
 % Copyright (c) 2008 Peter Kovesi
-% School of Computer Science & Software Engineering
-% The University of Western Australia
-% pk at csse uwa edu au
-% http://www.csse.uwa.edu.au/
+% peterkovesi.com
 
 function Qconj = quaternionconjugate(Q)
     

@@ -1,4 +1,4 @@
-% RANSACFITFUNDMATRIX - fits fundamental matrix using RANSAC
+%RANSACFITFUNDMATRIX fits fundamental matrix using RANSAC
 %
 % Usage:   [F, inliers] = ransacfitfundmatrix(x1, x2, t)
 %

@@ -1,4 +1,4 @@
-% MAXLINEDEV - Find max deviation from a line in an edge contour.
+%MAXLINEDEV Find max deviation from a line in an edge contour.
 %
 % Function finds the point of maximum deviation from a line joining the
 % endpoints of an edge contour.

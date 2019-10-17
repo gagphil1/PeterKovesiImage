@@ -1,4 +1,4 @@
-% GABORCONVOLVE - function for convolving image with log-Gabor filters
+%GABORCONVOLVE function for convolving image with log-Gabor filters
 %
 % Usage: [EO, BP] = gaborconvolve(im,  nscale, norient, minWaveLength, mult, ...
 %			    sigmaOnf, dThetaOnSigma, Lnorm, feedback)

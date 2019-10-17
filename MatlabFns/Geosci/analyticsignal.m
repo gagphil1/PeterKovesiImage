@@ -1,4 +1,4 @@
-% ANALYITICSIGNAL  Analytic signal of potential field data
+%ANALYITICSIGNAL Analytic signal of potential field data
 %
 % Usage: A = analyticsignal(im, hx, hy padding)
 %

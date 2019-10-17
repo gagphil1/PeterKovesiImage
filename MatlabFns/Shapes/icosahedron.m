@@ -1,4 +1,4 @@
-% ICOSAHEDRON   Generates vertices and graph of icosahedron
+%ICOSAHEDRON Generates vertices and graph of icosahedron
 %
 % Usage: [xyz, A, F] = icosahedron(radius)
 %

@@ -1,4 +1,4 @@
-% POLARTRANS - Transforms image to polar coordinates
+%POLARTRANS Transforms image to polar coordinates
 %
 % Usage:    pim = polartrans(im, nrad, ntheta, cx, cy, linlog, shape)
 %

@@ -1,4 +1,4 @@
-% CIRCLE - Draws a circle.
+%CIRCLE Draws a circle.
 %
 % Usage: circle(c, r, n, col)
 %

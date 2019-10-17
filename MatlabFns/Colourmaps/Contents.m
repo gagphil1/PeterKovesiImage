@@ -2,17 +2,17 @@
 %
 % Files
 %   cmap                - Library of perceptually uniform colour maps
-%   colorcet            - - Perceptually uniform color maps
-%   colourblind         - - Simulate colour appearance for colour blind viewers
+%   colorcet            - Perceptually uniform color maps
+%   colourblind         - Simulate colour appearance for colour blind viewers
 %   colourblindlabspace - Visualization of colour blind colour spaces in Lab
 %   colourblindlmsspace - Visualization of colour blind colour spaces in LMS
 %   colourmappath       - Plots the path of a colour map through colour space
-%   equalisecolourmap   - - Equalise colour contrast over a colourmap
+%   equalisecolourmap   - Equalise colour contrast over a colourmap
 %   generatelabslice    - Generates RGB image of slice through CIELAB space
 %   geosofttbl2map      - Converts Geosoft .tbl file to MATLAB colourmap
 %   labmaplib           - Library of colour maps designed in CIELAB or RGB space
 %   linearrgbmap        - Linear rgb colourmap from black to a specified colour
-%   makecolorcet        - - Constructs the COLORCET function
+%   makecolorcet        - Constructs the COLORCET function
 %   map2actfile         - Writes colourmap to .act file Adobe Colourmap Table
 %   map2ermapperlutfile - Writes ER Mapper LUT colour map file
 %   map2geosofttbl      - Converts MATLAB colourmap to Geosoft .tbl file

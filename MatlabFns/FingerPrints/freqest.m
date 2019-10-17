@@ -1,4 +1,4 @@
-% FREQEST - Estimate fingerprint ridge frequency within image block
+%FREQEST Estimate fingerprint ridge frequency within image block
 %
 % Function to estimate the fingerprint ridge frequency within a small block
 % of a fingerprint image.  This function is used by RIDGEFREQ

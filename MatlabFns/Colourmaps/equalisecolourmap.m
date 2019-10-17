@@ -1,4 +1,4 @@
-% EQUALISECOLOURMAP - Equalise colour contrast over a colourmap
+%EQUALISECOLOURMAP Equalise colour contrast over a colourmap
 %
 % Usage: newrgbmap = equalisecolourmap(rgblab, map, formula, W, sigma, diagnostics)
 %

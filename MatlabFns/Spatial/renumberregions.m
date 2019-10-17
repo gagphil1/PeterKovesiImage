@@ -3,7 +3,7 @@
 % Usage: [nL, minLabel, maxLabel] = renumberregions(L)
 %
 % Argument:   L - A labeled image segmenting an image into regions, such as
-%                 might be produced by a graph cut or superpixel algorithm.
+%MIGHT be produced by a graph cut or superpixel algorithm.
 %                 All pixels in each region are labeled by an integer.
 %
 % Returns:   nL - A relabeled version of L so that label numbers form a
@@ -22,10 +22,7 @@
 % See also: CLEANUPREGIONS, REGIONADJACENCY
 
 % Copyright (c) 2010 Peter Kovesi
-% Centre for Exploration Targeting
-% School of Earth and Environment
-% The University of Western Australia
-% peter.kovesi at uwa edu au
+% www.peterkovesi.com/matlabfns/
 %
 % Permission is hereby granted, free of charge, to any person obtaining a copy
 % of this software and associated documentation files (the "Software"), to deal

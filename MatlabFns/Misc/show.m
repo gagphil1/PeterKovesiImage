@@ -1,4 +1,4 @@
-% SHOW - Displays an image with the right size, colors, range, and with a title.
+%SHOW Displays an image with the right size, colors, range, and with a title.
 %
 % Usage:   
 %         h = show(im);

@@ -1,4 +1,4 @@
-% FILLNAN  - fills NaN values in an image with closest non Nan value
+%FILLNAN fills NaN values in an image with closest non Nan value
 %
 % NaN values in an image are replaced with the value in the closest pixel that
 % is not a NaN.  This can be used as a crude (but quick) 'inpainting' function

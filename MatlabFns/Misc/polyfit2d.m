@@ -1,4 +1,4 @@
-% POLYFIT2D Fits 2D polynomial surface to data
+%POLYFIT2D Fits 2D polynomial surface to data
 %
 % Usage:  c = polyfit2d(x, y, z, degree)
 %    

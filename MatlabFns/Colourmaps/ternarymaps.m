@@ -1,4 +1,4 @@
-% TERNARYMAPS Returns three basis colour maps for generating ternary images
+%TERNARYMAPS Returns three basis colour maps for generating ternary images
 % 
 % Usage:  [Rmap, Gmap, Bmap] = ternarymaps(N);
 %

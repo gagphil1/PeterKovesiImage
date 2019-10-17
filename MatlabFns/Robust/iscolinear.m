@@ -1,4 +1,4 @@
-% ISCOLINEAR - are 3 points colinear
+%ISCOLINEAR are 3 points colinear
 %
 % Usage:  r = iscolinear(p1, p2, p3, flag)
 %

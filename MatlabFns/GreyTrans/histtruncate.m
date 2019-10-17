@@ -1,4 +1,4 @@
-% HISTTRUNCATE - Truncates ends of an image histogram.
+%HISTTRUNCATE Truncates ends of an image histogram.
 %
 % Function truncates a specified percentage of the lower and
 % upper ends of an image histogram.

@@ -1,4 +1,4 @@
-% RIDGESEGMENT - Normalises fingerprint image and segments ridge region
+%RIDGESEGMENT Normalises fingerprint image and segments ridge region
 %
 % Function identifies ridge regions of a fingerprint image and returns a
 % mask identifying this region.  It also normalises the intesity values of

@@ -1,4 +1,4 @@
-% IMPAD - pads the boundary of an image.
+%IMPAD pads the boundary of an image.
 %
 % Usage:  paddedim = impad(im, b, v)
 %
@@ -25,9 +25,8 @@
 % See also: IMTRIM, IMSETBORDER
 
 % Peter Kovesi
-% Centre for Exploration Targeting
-% The University of Western Australia
-% http://peterkovesi.com/matlabfns/
+% www.peterkovesi.com/matlabfns/
+%
 % June    2010
 % January 2011  Added optional padding value.
 % October 2017  Added replicate, taper and cosine options.

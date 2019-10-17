@@ -1,4 +1,4 @@
-% COLOURBLINDLMSSPACE  Visualization of colour blind colour spaces in LMS
+%COLOURBLINDLMSSPACE Visualization of colour blind colour spaces in LMS
 %
 % This function displays a representation of the protanopic/deuteranopic or
 % tritanopic colour spaces within the LMS colour space representing the cone

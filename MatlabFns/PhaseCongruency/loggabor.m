@@ -1,6 +1,6 @@
 % LOGGABOR
 %
-% Plots 1D log-Gabor functions
+%PLOTS 1D log-Gabor functions
 %
 
 % Author: Peter Kovesi   

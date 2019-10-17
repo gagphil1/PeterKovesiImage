@@ -1,4 +1,4 @@
-% DISPFEAT - Displays feature types as detected by PHASECONG.
+%DISPFEAT Displays feature types as detected by PHASECONG.
 %
 % This function provides a visualisation of the feature types as detected
 % by PHASECONG.

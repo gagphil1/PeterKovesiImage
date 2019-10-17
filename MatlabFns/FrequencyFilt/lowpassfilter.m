@@ -1,4 +1,4 @@
-% LOWPASSFILTER - Constructs a low-pass butterworth filter.
+%LOWPASSFILTER Constructs a low-pass butterworth filter.
 %
 % usage: f = lowpassfilter(sze, cutoff, n)
 % 

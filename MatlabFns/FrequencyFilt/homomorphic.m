@@ -1,4 +1,4 @@
-% HOMOMORPHIC - Performs homomorphic filtering on an image.
+%HOMOMORPHIC Performs homomorphic filtering on an image.
 %
 % Function performs homomorphic filtering on an image. This form of
 % filtering sharpens features and flattens lighting variantions in an image.
@@ -137,14 +137,16 @@ function him = Ihomomorphic(im, boost, CutOff, order, varargin)
 	% Construct a histogram of the image.  Find the level below which a high
 	% percentage of the image lies (say 95%).  Saturate the grey levels in
 	% the image to this level.
-	
+
+	%{
 	if dispStatus
 	    set(hndl,'String','Calculating histogram and truncating...');
 	    drawnow;
 	else
 	    disp('Calculating histogram and truncating...');
 	end
-	
+	%}
+        
 	him = histtruncate(him, lhistogram_cut, uhistogram_cut);
 
     else

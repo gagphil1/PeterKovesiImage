@@ -1,4 +1,4 @@
-% SKEW - Constructs 3x3 skew-symmetric matrix from 3-vector
+%SKEW Constructs 3x3 skew-symmetric matrix from 3-vector
 %
 % Usage:  s = skew(v)
 %

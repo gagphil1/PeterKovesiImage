@@ -1,4 +1,4 @@
-% PHASESYM - Function for computing phase symmetry on an image.
+%PHASESYM Function for computing phase symmetry on an image.
 %
 % This function calculates the phase symmetry of points in an image.
 % This is a contrast invariant measure of symmetry.  This function can be

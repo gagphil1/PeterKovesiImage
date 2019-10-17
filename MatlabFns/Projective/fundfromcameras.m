@@ -1,4 +1,4 @@
-% FUNDFROMCAMERAS - Fundamental matrix from camera matrices
+%FUNDFROMCAMERAS Fundamental matrix from camera matrices
 %
 % Usage: F = fundfromcameras(P1, P2)
 %

@@ -1,4 +1,4 @@
-% HSVMAP Generates an HSV colourmap over a specified range of hues
+%HSVMAP Generates an HSV colourmap over a specified range of hues
 %
 % The function generates colours over a specified range of hues from the HSV
 % colourtmap

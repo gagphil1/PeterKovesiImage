@@ -1,4 +1,4 @@
-% NORMALISE - Normalises image values to 0-1, or to desired mean and variance
+%NORMALISE Normalises image values to 0-1, or to desired mean and variance
 %
 % Usage:
 %             n = normalise(im)

@@ -1,4 +1,4 @@
-% TERRACE - Terracing operator for potential field data.
+%TERRACE Terracing operator for potential field data.
 %
 % Useage: terrimg = terrace(img, nIter, sigma)
 %
@@ -34,7 +34,7 @@
 % References:
 %
 % Cordell L. and McCafferty A.E. 1989. A terracing operator for physical
-% property mapping with potential field data. Geophysics 54, 621â€“634.
+% property mapping with potential field data. Geophysics 54, 621âÿÿ634.
 %
 % G.R.J. Cooper and D.R. Cowan ASEG 2009. "Terracing potential field data"
 

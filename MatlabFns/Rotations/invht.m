@@ -1,4 +1,4 @@
-% INVHT - inverse of a homogeneous transformation matrix
+%INVHT inverse of a homogeneous transformation matrix
 %
 % Usage:  Tinv = invht(T)
 %

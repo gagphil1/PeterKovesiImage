@@ -1,4 +1,4 @@
-% GRAYMAP Generates a gray colourmap over a specified range
+%GRAYMAP Generates a gray colourmap over a specified range
 %
 % Usage: map = graymap(gmin, gmax, N)
 %

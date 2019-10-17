@@ -1,4 +1,4 @@
-% FITPLANE - solves coefficients of plane fitted to 3 or more points
+%FITPLANE solves coefficients of plane fitted to 3 or more points
 %
 % Usage:   B = fitplane(XYZ)
 %

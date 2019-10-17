@@ -1,4 +1,4 @@
-% BASENAME  Trims off the .ending of a filename
+%BASENAME Trims off the .ending of a filename
 %
 % Usage:  bname = basename(name)
 %

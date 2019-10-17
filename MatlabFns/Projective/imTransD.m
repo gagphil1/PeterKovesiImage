@@ -1,4 +1,4 @@
-% IMTRANSD - Homogeneous transformation of an image.
+%IMTRANSD Homogeneous transformation of an image.
 %
 % This is a stripped down version of imTrans which does not apply any origin
 % shifting to the transformed image

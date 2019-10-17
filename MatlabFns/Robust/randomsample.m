@@ -1,4 +1,4 @@
-% RANDOMSAMPLE - selects n random items from an array
+%RANDOMSAMPLE selects n random items from an array
 %
 % Usage:  items = randomsample(a, n)
 %

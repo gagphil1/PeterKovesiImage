@@ -1,4 +1,4 @@
-% Harris - Harris corner detector
+%HARRIS Harris corner detector
 %
 % Usage:                 cim = harris(im, sigma, k)
 %                [cim, r, c] = harris(im, sigma, k, keyword-value options...)
@@ -62,9 +62,7 @@
 % pp 147-151, 1988.
 
 % Copyright (c) 2002-2016 Peter Kovesi
-% Centre for Exploration Targeting
-% The University of Western Australia
-% http://www.csse.uwa.edu.au/~pk/research/matlabfns/
+% www.peterkovesi.com/matlabfns/
 % 
 % Permission is hereby granted, free of charge, to any person obtaining a copy
 % of this software and associated documentation files (the "Software"), to deal

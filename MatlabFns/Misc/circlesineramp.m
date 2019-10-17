@@ -1,4 +1,4 @@
-% CIRCLESINERAMP Generates test image for evaluating cyclic colour maps
+%CIRCLESINERAMP Generates test image for evaluating cyclic colour maps
 %
 % Usage: [im, alpha] = circlesineramp(sze, amp, wavelen, p, hole);
 %        [im, alpha] = circlesineramp;

@@ -1,4 +1,4 @@
-% DBSCAN DBSCAN clustering algorithm
+%DBSCAN DBSCAN clustering algorithm
 %
 % Usage:  [C, ptsC, centres] = dbscan(P, E, minPts)
 %

@@ -1,4 +1,4 @@
-% CAMSTRUCT - Construct a camera structure 
+%CAMSTRUCT Construct a camera structure 
 %
 % Usage: C = camstruct(param_name, value, ...
 %

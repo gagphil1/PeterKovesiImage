@@ -1,4 +1,4 @@
-% COLORCET - Perceptually uniform color maps
+%COLORCET Perceptually uniform color maps
 %
 % Usage 1: Generate a colour map and apply it to the current figure.
 %  >> colorcet(name);

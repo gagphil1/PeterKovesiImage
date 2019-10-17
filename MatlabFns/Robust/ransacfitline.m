@@ -1,4 +1,4 @@
-% RANSACFITLINE - fits line to 3D array of points using RANSAC
+%RANSACFITLINE fits line to 3D array of points using RANSAC
 %
 % Usage  [L, inliers] = ransacfitline(XYZ, t, feedback)
 %

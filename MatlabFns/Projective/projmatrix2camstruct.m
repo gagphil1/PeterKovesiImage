@@ -1,4 +1,4 @@
-% PROJMATRIX2CAMSTRUCT - Projection matrix to camera structure
+%PROJMATRIX2CAMSTRUCT Projection matrix to camera structure
 %
 % Function takes a projection matrix and returns its equivalent camera
 % structure.

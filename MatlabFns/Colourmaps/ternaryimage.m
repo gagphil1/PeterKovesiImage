@@ -1,4 +1,4 @@
-% TERNARYIMAGE  Perceptualy uniform ternary image from 3 bands of data
+%TERNARYIMAGE Perceptualy uniform ternary image from 3 bands of data
 %
 % Usage: rgbim = ternaryimage(im, bands, histcut, Rmap, Gmap, Bmap)
 %

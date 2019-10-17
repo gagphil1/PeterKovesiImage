@@ -1,4 +1,4 @@
-% CHIRPEXP   Generates exponential chirp test image
+%CHIRPEXP Generates exponential chirp test image
 %
 % The test image consists of an exponential chirp signal in the horizontal
 % direction with the amplitude of the chirp being modulated from 1 at the top of

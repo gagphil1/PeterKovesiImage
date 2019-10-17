@@ -1,4 +1,4 @@
-% SPDBSCAN SuperPixel DBSCAN clustering for image segmentation
+%SPDBSCAN SuperPixel DBSCAN clustering for image segmentation
 %
 % Usage:  [lc, C, regionsC] = spdbscan(l, Cp, Am, E)
 %
@@ -43,9 +43,7 @@
 % Also see: http://en.wikipedia.org/wiki/DBSCAN
 
 % Copyright (c) 2013 Peter Kovesi
-% Centre for Exploration Targeting
-% The University of Western Australia
-% peter.kovesi at uwa edu au
+% www.peterkovesi.com/matlabfns/
 % 
 % Permission is hereby granted, free of charge, to any person obtaining a copy
 % of this software and associated documentation files (the "Software"), to deal

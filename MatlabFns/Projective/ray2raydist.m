@@ -1,4 +1,4 @@
-% RAY2RAYDIST   Minimum distance between two 3D rays
+%RAY2RAYDIST Minimum distance between two 3D rays
 %
 % Usage: d = ray2raydist(p1, v1, p2, v2)
 %

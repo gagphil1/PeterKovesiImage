@@ -1,4 +1,4 @@
-% QUANTIZEPHASE Quantize phase values in an image
+%QUANTIZEPHASE Quantize phase values in an image
 %
 % Usage:  qim = quantizephase(im, N)
 %

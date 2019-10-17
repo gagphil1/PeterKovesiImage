@@ -1,4 +1,4 @@
-% PHASECONG - Computes phase congruency on an image.
+%PHASECONG Computes phase congruency on an image.
 %
 % Usage: [pc or ft] = phasecong(im)
 %

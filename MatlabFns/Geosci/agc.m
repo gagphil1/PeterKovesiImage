@@ -1,4 +1,4 @@
-% AGC Automatic Gain Control for geophysical images
+%AGC Automatic Gain Control for geophysical images
 %
 % Usage: agcim = agc(im, sigma, p, r)
 %

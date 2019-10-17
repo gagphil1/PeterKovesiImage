@@ -1,4 +1,4 @@
-% NEEDLEPLOTST - needleplot of 3D surface from slant tilt data
+%NEEDLEPLOTST needleplot of 3D surface from slant tilt data
 %
 % Usage:  needleplotst(slant, tilt, len, spacing)
 %

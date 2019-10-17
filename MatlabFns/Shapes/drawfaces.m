@@ -1,4 +1,4 @@
-% DRAWFACES  Draws triangular faces defined by vertices and face vertex lists
+%DRAWFACES Draws triangular faces defined by vertices and face vertex lists
 %
 % Usage: drawfaces(xyz, F, col)
 %

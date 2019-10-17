@@ -1,4 +1,4 @@
-% SWIPE  Interactive image swiping between 2, 3 or 4 images.
+%SWIPE Interactive image swiping between 2, 3 or 4 images.
 %
 % Usage  swipe(im, figNo)
 %

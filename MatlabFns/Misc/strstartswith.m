@@ -1,4 +1,4 @@
-% STRSTARTSWITH - tests if a string starts with a specified substring
+%STRSTARTSWITH tests if a string starts with a specified substring
 %
 % Usage: b = strstartswith(str, substr)
 %

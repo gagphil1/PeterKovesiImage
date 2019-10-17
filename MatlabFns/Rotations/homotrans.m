@@ -1,4 +1,4 @@
-% HOMOTRANS - Homogeneous transformation of points/lines
+%HOMOTRANS Homogeneous transformation of points/lines
 %
 % Function to perform a transformation on 2D or 3D homogeneous coordinates
 % The resulting coordinates are normalised to have a homogeneous scale of 1
@@ -11,10 +11,7 @@
 %           v  - 3 x n or 4 x n matrix of homogeneous coordinates
 
 % Copyright (c) 2000-2007 Peter Kovesi
-% School of Computer Science & Software Engineering
-% The University of Western Australia
-% pk at csse uwa edu au
-% http://www.csse.uwa.edu.au/
+% peterkovesi.com
 % 
 % Permission is hereby granted, free of charge, to any person obtaining a copy
 % of this software and associated documentation files (the "Software"), to deal

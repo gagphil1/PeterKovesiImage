@@ -1,4 +1,4 @@
-% ANGLEAXISROTATE - uses angle axis descriptor to rotate vectors
+%ANGLEAXISROTATE uses angle axis descriptor to rotate vectors
 %
 % Usage: v2 = angleaxisrotate(t, v)
 %
@@ -10,11 +10,8 @@
 %
 % See also: MATRIX2ANGLEAXIS, NEWANGLEAXIS, ANGLEAXIS2MATRIX, NORMALISEANGLEAXIS
 
-% Copyright (c) 2008 Peter Kovesi
-% School of Computer Science & Software Engineering
-% The University of Western Australia
-% pk at csse uwa edu au
-% http://www.csse.uwa.edu.au/
+% Copyright (C) 2008 Peter Kovesi
+% peterkovesi.com
 % 
 % Permission is hereby granted, free of charge, to any person obtaining a copy
 % of this software and associated documentation files (the "Software"), to deal

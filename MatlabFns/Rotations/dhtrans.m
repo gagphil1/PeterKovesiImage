@@ -1,4 +1,4 @@
-% DHTRANS - computes Denavit Hartenberg matrix
+%DHTRANS computes Denavit Hartenberg matrix
 %
 % This function calculates the 4x4 homogeneous transformation matrix, representing
 % the Denavit Hartenberg matrix, given link parameters of joint angle, length, joint
@@ -15,11 +15,8 @@
 %
 % See also: TRANS, ROTX, ROTY, ROTZ, INVHT
 
-% Copyright (c) 2001 Peter Kovesi
-% School of Computer Science & Software Engineering
-% The University of Western Australia
-% pk at csse uwa edu au
-% http://www.csse.uwa.edu.au/
+% Copyright (C) 2001 Peter Kovesi
+% peterkovesi.com
 
 function T = dhtrans(theta, offset, length, twist)
 

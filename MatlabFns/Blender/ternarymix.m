@@ -1,4 +1,4 @@
-% TERNARYMIX  Image blending and swiping over three images
+%TERNARYMIX Image blending and swiping over three images
 %
 % Function uses Barycentric coordinates over a triangle to interpolate/blend
 % three images.  You can also switch to a swiping mode of display between the

@@ -1,4 +1,4 @@
-% FILLEDGEGAPS  Fills small gaps in a binary edge map image
+%FILLEDGEGAPS Fills small gaps in a binary edge map image
 %
 % Usage: bw2 = filledgegaps(bw, gapsize)
 %

@@ -1,4 +1,4 @@
-% NOBLE - Noble's corner detector
+%NOBLE Noble's corner detector
 %
 % Usage:                 cim = noble(im, sigma)
 %                [cim, r, c] = noble(im, sigma, keyword-value options...)
@@ -62,9 +62,7 @@
 % of Engineering Science, Oxford University 1989, p45.
 
 % Copyright (c) 2002-2016 Peter Kovesi
-% Centre for Exploration Targeting
-% The University of Western Australia
-% http://www.csse.uwa.edu.au/~pk/research/matlabfns/
+% www.peterkovesi.com/matlabfns/
 % 
 % Permission is hereby granted, free of charge, to any person obtaining a copy
 % of this software and associated documentation files (the "Software"), to deal

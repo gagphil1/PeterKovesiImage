@@ -1,4 +1,4 @@
-% SOLVESTEREOPT - Homogeneous linear solution of a stereo point
+%SOLVESTEREOPT Homogeneous linear solution of a stereo point
 %
 % Usage:  [pt, xy_reproj] = solvestereopt(xy, P)
 %

@@ -1,4 +1,4 @@
-% HNORMALISE - Normalises array of homogeneous coordinates to a scale of 1
+%HNORMALISE Normalises array of homogeneous coordinates to a scale of 1
 %
 % Usage:  nx = hnormalise(x)
 %

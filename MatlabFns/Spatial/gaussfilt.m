@@ -1,4 +1,4 @@
-% GAUSSFILT -  Small wrapper function for convenient Gaussian filtering
+%GAUSSFILT Small wrapper function for convenient Gaussian filtering
 %
 % Usage:  smim = gaussfilt(im, sigma)
 %
@@ -13,9 +13,7 @@
 % See also:  INTEGGAUSSFILT
 
 % Peter Kovesi
-% Centre for Explortion Targeting
-% The University of Western Australia
-% http://www.csse.uwa.edu.au/~pk/research/matlabfns/
+% www.peterkovesi.com/matlabfns/
 
 % March 2010
 % June  2013  - Provision for multi-channel images

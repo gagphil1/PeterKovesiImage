@@ -1,4 +1,4 @@
-% CAMERAPROJECT - Projects 3D points into camera image 
+%CAMERAPROJECT Projects 3D points into camera image 
 %
 % Usage:  [xy, visible] = cameraproject(C, pt)    
 %

@@ -1,4 +1,4 @@
-% NORMALISE2DPTS - normalises 2D homogeneous points
+%NORMALISE2DPTS normalises 2D homogeneous points
 %
 % Function translates and normalises a set of 2D homogeneous points 
 % so that their centroid is at the origin and their mean distance from 

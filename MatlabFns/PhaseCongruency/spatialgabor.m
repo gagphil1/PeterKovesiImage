@@ -1,4 +1,4 @@
-% SPATIALGABOR - applies single oriented gabor filter to an image
+%SPATIALGABOR applies single oriented gabor filter to an image
 %
 % Usage:
 %  [Eim, Oim, Aim] =  spatialgabor(im, wavelength, angle, kx, ky, showfilter)

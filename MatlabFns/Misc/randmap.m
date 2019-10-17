@@ -1,4 +1,4 @@
-% RANDMAP Generates a colourmap of random colours
+%RANDMAP Generates a colourmap of random colours
 %
 % Useful for displaying a labeled segmented image
 %

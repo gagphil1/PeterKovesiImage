@@ -1,4 +1,4 @@
-% BILINIMIX  An Interactive Image for viewing multiple images
+%BILINIMIX An Interactive Image for viewing multiple images
 %
 % Usage:  bilinimix(im, figNo)
 %

@@ -1,4 +1,4 @@
-% REMOVETREND - Fit a polynomial trend to a surface and remove it.
+%REMOVETREND Fit a polynomial trend to a surface and remove it.
 %
 % Usage: [newimg, trend, coef] = removetrend(img, order, spacing)
 %

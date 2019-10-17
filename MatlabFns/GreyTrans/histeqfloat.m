@@ -1,4 +1,4 @@
-% HISTEQFLOAT Floating point image histogram equalisation
+%HISTEQFLOAT Floating point image histogram equalisation
 %
 % Histogram equalisation for images containing floating point values. The number
 % of distinct values in the output image will be the same as the number of

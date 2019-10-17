@@ -1,4 +1,4 @@
-% REMOVENAN - removes NaNs from an array 
+%REMOVENAN removes NaNs from an array 
 %
 % Usage: m = removenan(a, defaultval)
 %

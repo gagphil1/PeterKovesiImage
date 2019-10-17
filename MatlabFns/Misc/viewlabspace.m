@@ -1,4 +1,4 @@
-% VIEWLABSPACE  Visualisation of L*a*b* space
+%VIEWLABSPACE Visualisation of L*a*b* space
 %
 % Usage:    viewlabspace(dL)
 %

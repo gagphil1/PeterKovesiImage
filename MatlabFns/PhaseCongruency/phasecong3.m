@@ -1,4 +1,4 @@
-% PHASECONG3 - Computes edge and corner phase congruency in an image.
+%PHASECONG3 Computes edge and corner phase congruency in an image.
 %
 % This function calculates the PC_2 measure of phase congruency.  
 % This function supersedes PHASECONG2 and PHASECONG being faster and requires

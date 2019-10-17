@@ -1,4 +1,4 @@
-% INTFILTTRANSPOSE - transposes an integral filter
+%INTFILTTRANSPOSE transposes an integral filter
 %
 % Usage: ft = intfilttranspose(f)
 %
@@ -9,10 +9,7 @@
 % See also: INTEGRALFILTER, INTEGRALIMAGE, INTEGAVERAGE
 
 % Copyright (c) 2007 Peter Kovesi
-% School of Computer Science & Software Engineering
-% The University of Western Australia
-% pk at csse uwa edu au
-% http://www.csse.uwa.edu.au/
+% www.peterkovesi.com/matlabfns/
 % 
 % Permission is hereby granted, free of charge, to any person obtaining a copy
 % of this software and associated documentation files (the "Software"), to deal

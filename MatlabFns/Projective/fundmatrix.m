@@ -1,4 +1,4 @@
-% FUNDMATRIX - computes fundamental matrix from 8 or more points
+%FUNDMATRIX computes fundamental matrix from 8 or more points
 %
 % Function computes the fundamental matrix from 8 or more matching points in
 % a stereo pair of images.  The normalised 8 point algorithm given by

@@ -1,4 +1,4 @@
-% SUPERTORUS - generates  a 'supertorus' surface
+%SUPERTORUS generates  a 'supertorus' surface
 %
 % Usage:
 %          [x,y,z] = supertorus(xscale, yscale, zscale, rad, e1, e2, n)

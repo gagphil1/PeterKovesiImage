@@ -1,4 +1,4 @@
-% DECOMPOSECAMERA  Decomposition of a camera projection matrix
+%DECOMPOSECAMERA Decomposition of a camera projection matrix
 %
 % Usage:  [K, Rc_w, Pc, pp, pv] = decomposecamera(P);
 %

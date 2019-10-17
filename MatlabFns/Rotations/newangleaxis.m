@@ -1,4 +1,4 @@
-% NEWANGLEAXIS - Constructs angle-axis descriptor
+%NEWANGLEAXIS Constructs angle-axis descriptor
 %
 % Usage: t = newangleaxis(theta, axis)
 %
@@ -11,10 +11,7 @@
 %           NORMALISEANGLEAXIS
 
 % Copyright (c) 2008 Peter Kovesi
-% School of Computer Science & Software Engineering
-% The University of Western Australia
-% pk at csse uwa edu au
-% http://www.csse.uwa.edu.au/
+% peterkovesi.com
 
 function t = newangleaxis(theta, axis)
     

@@ -1,4 +1,4 @@
-% INVFFT2 - takes inverse fft and returns real part
+%INVFFT2 takes inverse fft and returns real part
 %
 % Function to `wrap up' taking the inverse Fourier transform
 % and extracting the real part into the one operation

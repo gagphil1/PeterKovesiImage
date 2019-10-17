@@ -1,4 +1,4 @@
-% RANSACFITAFFINEFUND - fits affine fundamental matrix using RANSAC
+%RANSACFITAFFINEFUND fits affine fundamental matrix using RANSAC
 %
 % Usage:   [F, inliers] = ransacfitaffinefund(x1, x2, t)
 %

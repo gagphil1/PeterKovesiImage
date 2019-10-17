@@ -1,4 +1,4 @@
-% VECTOR2QUATERNION - embeds 3-vector in a quaternion representation
+%VECTOR2QUATERNION embeds 3-vector in a quaternion representation
 %
 % Usage: Q = vector2quaternion(v)
 %
@@ -7,11 +7,8 @@
 %
 % See also: NEWQUATERNION, QUATERNIONROTATE, QUATERNIONPRODUCT, QUATERNIONCONJUGATE
 
-% Copyright (c) 2008 Peter Kovesi
-% School of Computer Science & Software Engineering
-% The University of Western Australia
-% pk at csse uwa edu au
-% http://www.csse.uwa.edu.au/
+% Peter Kovesi 2001
+% peterkovesi.com
     
 function Q = vector2quaternion(v)
 

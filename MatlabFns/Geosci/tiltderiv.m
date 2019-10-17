@@ -1,4 +1,4 @@
-% TILTDERIV  Tilt derivative of potential field data
+%TILTDERIV Tilt derivative of potential field data
 %
 % Usage: td = tiltderiv(im, hx, hy, padding)
 %

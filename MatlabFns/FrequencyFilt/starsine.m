@@ -1,4 +1,4 @@
-% STARSINE Generates phase congruent star shaped sine wave grating
+%STARSINE Generates phase congruent star shaped sine wave grating
 %
 % Usage:    im = starsine(sze, nCycles, nScales, ampExponent, offset)
 %

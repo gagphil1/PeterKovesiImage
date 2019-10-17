@@ -1,4 +1,4 @@
-% PLOTCAMERA - Plots graphical representation of camera(s) showing pose
+%PLOTCAMERA Plots graphical representation of camera(s) showing pose
 %
 % Usage plotcamera(C, l, col, plotCamPath, fig)
 %

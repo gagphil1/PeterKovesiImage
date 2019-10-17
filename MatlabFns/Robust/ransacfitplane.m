@@ -1,4 +1,4 @@
-% RANSACFITPLANE - fits plane to 3D array of points using RANSAC
+%RANSACFITPLANE fits plane to 3D array of points using RANSAC
 %
 % Usage  [B, P, inliers] = ransacfitplane(XYZ, t, feedback)
 %

@@ -1,6 +1,6 @@
 % CLOUDS
 %
-% Function to create a movie of noise images having 1/f amplitude spectum properties
+%FUNCTION to create a movie of noise images having 1/f amplitude spectum properties
 %
 % Usage: clouds(size, factor, meandev, stddev, lowvel, velfactor, nframes)
 %

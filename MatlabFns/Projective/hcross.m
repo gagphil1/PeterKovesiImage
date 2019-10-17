@@ -1,4 +1,4 @@
-% HCROSS - Homogeneous cross product, result normalised to s = 1.
+%HCROSS Homogeneous cross product, result normalised to s = 1.
 %
 % Function to form cross product between two points, or lines,
 % in homogeneous coodinates.  The result is normalised to lie

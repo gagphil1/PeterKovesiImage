@@ -1,4 +1,4 @@
-% HOMOGRAPHY1D - computes 1D homography
+%HOMOGRAPHY1D computes 1D homography
 %
 % Usage:   H = homography1d(x1, x2)
 %

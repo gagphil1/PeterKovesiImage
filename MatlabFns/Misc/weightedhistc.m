@@ -1,4 +1,4 @@
-% WEIGHTEDHISTC   Weighted histogram count
+%WEIGHTEDHISTC Weighted histogram count
 %
 % This function provides a basic equivalent to MATLAB's HISTC function for
 % weighted data. 

@@ -1,4 +1,4 @@
-% SHAPELETSURF - reconstructs surface from surface normals using shapelets
+%SHAPELETSURF reconstructs surface from surface normals using shapelets
 %
 % Function reconstructs an estimate of a surface from its surface normals by
 % correlating the surface normals with that those of a bank of shapelet

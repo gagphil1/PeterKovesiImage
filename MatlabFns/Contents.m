@@ -1,89 +1,89 @@
 % Peter Kovesi's Functions for Computer Vision and Image Processing
-% Version 2018-04-30 05:06:50
+% Version 2019-10-17 15:08:31
 %
 % Complete information in <https://www.peterkovesi.com/matlabfns/index.html>
 %
 % BLENDER
 %
 % Files
-%   bilinimix              - An Interactive Image for viewing multiple images
-%   binarymix              - Image blending and swiping between two images
-%   cliquemix              - Multi-image blending and swiping over a clique
-%   collectncheckimages    - Collects and checks images prior to blending
-%   cyclemix               - Multi-image blending over a cyclic sequence of images
-%   linimix                - An Interactive Image for viewing multiple images
-%   logisticweighting      - Weighting function based on the logistics function
-%   swipe                  - Interactive image swiping between 2, 3 or 4 images.
-%   ternarymix             - Image blending and swiping over three images
+%   bilinimix           - An Interactive Image for viewing multiple images
+%   binarymix           - Image blending and swiping between two images
+%   cliquemix           - Multi-image blending and swiping over a clique
+%   collectncheckimages - Collects and checks images prior to blending
+%   cyclemix            - Multi-image blending over a cyclic sequence of images
+%   linimix             - An Interactive Image for viewing multiple images
+%   logisticweighting   - Weighting function based on the logistics function
+%   swipe               - Interactive image swiping between 2, 3 or 4 images.
+%   ternarymix          - Image blending and swiping over three images
 %
 % COLOURMAPS
 %
 % Files
-%   cmap                   - Library of perceptually uniform colour maps
-%   colorcet               - Perceptually uniform color maps
-%   colourblind            - Simulate colour appearance for colour blind viewers
-%   colourblindlabspace    - Visualization of colour blind colour spaces in Lab
-%   colourblindlmsspace    - Visualization of colour blind colour spaces in LMS
-%   colourmappath          - Plots the path of a colour map through colour space
-%   equalisecolourmap      - Equalise colour contrast over a colourmap
-%   generatelabslice       - Generates RGB image of slice through CIELAB space
-%   geosofttbl2map         - Converts Geosoft .tbl file to MATLAB colourmap
-%   labmaplib              - Library of colour maps designed in CIELAB or RGB space
-%   linearrgbmap           - Linear rgb colourmap from black to a specified colour
-%   makecolorcet           - Constructs the COLORCET function
-%   map2actfile            - Writes colourmap to .act file Adobe Colourmap Table
-%   map2ermapperlutfile    - Writes ER Mapper LUT colour map file
-%   map2geosofttbl         - Converts MATLAB colourmap to Geosoft .tbl file
-%   map2imagejlutfile      - Writes a colourmap to a .lut file for use with ImageJ
-%   map2lutfile            - Writes a colourmap to a .lut file for use with ImageJ
-%   map2qgisstyle          - Writes colour maps to QGIS style file
-%   pseudogrey             - Pseudogrey scale colour map with 2551 levels.
-%   readermapperlutfile    - Read ER Mapper LUT colour map file
-%   readimagejlutfile      - Reads lut colourmap file as used by ImageJ
-%   ternarycolours         - Determine 3 basis colours for a ternary image
-%   ternaryimage           - Perceptualy uniform ternary image from 3 bands of data
-%   ternarymaps            - Returns three basis colour maps for generating ternary images
-%   writecolourmapfn       - Creates a MATLAB function file from a Nx3 colourmap 
+%   cmap                - Library of perceptually uniform colour maps
+%   colorcet            - Perceptually uniform color maps
+%   colourblind         - Simulate colour appearance for colour blind viewers
+%   colourblindlabspace - Visualization of colour blind colour spaces in Lab
+%   colourblindlmsspace - Visualization of colour blind colour spaces in LMS
+%   colourmappath       - Plots the path of a colour map through colour space
+%   equalisecolourmap   - Equalise colour contrast over a colourmap
+%   generatelabslice    - Generates RGB image of slice through CIELAB space
+%   geosofttbl2map      - Converts Geosoft .tbl file to MATLAB colourmap
+%   labmaplib           - Library of colour maps designed in CIELAB or RGB space
+%   linearrgbmap        - Linear rgb colourmap from black to a specified colour
+%   makecolorcet        - Constructs the COLORCET function
+%   map2actfile         - Writes colourmap to .act file Adobe Colourmap Table
+%   map2ermapperlutfile - Writes ER Mapper LUT colour map file
+%   map2geosofttbl      - Converts MATLAB colourmap to Geosoft .tbl file
+%   map2imagejlutfile   - Writes a colourmap to a .lut file for use with ImageJ
+%   map2lutfile         - Writes a colourmap to a .lut file for use with ImageJ
+%   map2qgisstyle       - Writes colour maps to QGIS style file
+%   pseudogrey          - Pseudogrey scale colour map with 2551 levels.
+%   readermapperlutfile - Read ER Mapper LUT colour map file
+%   readimagejlutfile   - Reads lut colourmap file as used by ImageJ
+%   ternarycolours      - Determine 3 basis colours for a ternary image
+%   ternaryimage        - Perceptualy uniform ternary image from 3 bands of data
+%   ternarymaps         - Returns three basis colour maps for generating ternary images
+%   writecolourmapfn    - Creates a MATLAB function file from a Nx3 colourmap 
 %
 % FINGERPRINTS
 %
 % Files
-%   freqest                - Estimate fingerprint ridge frequency within image block
-%   plotridgeorient        - plot of ridge orientation data
-%   ridgefilter            - enhances fingerprint image via oriented filters
-%   ridgefreq              - Calculates a ridge frequency image
-%   ridgeorient            - Estimates the local orientation of ridges in a fingerprint
-%   ridgesegment           - Normalises fingerprint image and segments ridge region
+%   freqest         - Estimate fingerprint ridge frequency within image block
+%   plotridgeorient - plot of ridge orientation data
+%   ridgefilter     - enhances fingerprint image via oriented filters
+%   ridgefreq       - Calculates a ridge frequency image
+%   ridgeorient     - Estimates the local orientation of ridges in a fingerprint
+%   ridgesegment    - Normalises fingerprint image and segments ridge region
 %
 % FREQUENCYFILT
 %
 % Files
-%   bandpassfilter         - Constructs a band-pass butterworth filter
-%   circsine               - Generates circular sine wave grating
-%   dealias                - Filter image to try to remove aliasing artifacts
-%   filtergrid             - Generates grid for constructing frequency domain filters
-%   freqcomp               - Demonstrates image reconstruction from Fourier components
-%   highboostfilter        - Constructs a high-boost Butterworth filter.
-%   highpassfilter         - Constructs a high-pass butterworth filter.
-%   homomorphic            - Performs homomorphic filtering on an image.
-%   imspect                - Plots image amplitude spectrum averaged over all orientations.
-%   invfft2                - takes inverse fft and returns real part
-%   invfft2shft            - takes inverse fft, quadrant shifts and returns real part.
-%   lowpassfilter          - Constructs a low-pass butterworth filter.
-%   perfft2                - 2D Fourier transform of Moisan's periodic image component
-%   psf                    - Generates point spread functions for use with deconvolution fns.
-%   psf2                   - Generates point spread functions for use with deconvolution fns.
-%   quantizephase          - Quantize phase values in an image
-%   scalogram              - Calculates phase and amplitude scalogram of 1D signal.
-%   starsine               - Generates phase congruent star shaped sine wave grating
-%   upwardcontinue         - Upward continuation for magnetic or gravity potential field data
-%   wavenumbergrid         - Generate wavenumber grid for frequency domain filtering
+%   bandpassfilter  - Constructs a band-pass butterworth filter
+%   circsine        - Generates circular sine wave grating
+%   dealias         - Filter image to try to remove aliasing artifacts
+%   filtergrid      - Generates grid for constructing frequency domain filters
+%   freqcomp        - Demonstrates image reconstruction from Fourier components
+%   highboostfilter - Constructs a high-boost Butterworth filter.
+%   highpassfilter  - Constructs a high-pass butterworth filter.
+%   homomorphic     - Performs homomorphic filtering on an image.
+%   imspect         - Plots image amplitude spectrum averaged over all orientations.
+%   invfft2         - takes inverse fft and returns real part
+%   invfft2shft     - takes inverse fft, quadrant shifts and returns real part.
+%   lowpassfilter   - Constructs a low-pass butterworth filter.
+%   perfft2         - 2D Fourier transform of Moisan's periodic image component
+%   psf             - Generates point spread functions for use with deconvolution fns.
+%   psf2            - Generates point spread functions for use with deconvolution fns.
+%   quantizephase   - Quantize phase values in an image
+%   scalogram       - Calculates phase and amplitude scalogram of 1D signal.
+%   starsine        - Generates phase congruent star shaped sine wave grating
+%   upwardcontinue  - Upward continuation for magnetic or gravity potential field data
+%   wavenumbergrid  - Generate wavenumber grid for frequency domain filtering
 %
 % GEOSCI
 %
 % Files
 %   agc                    - Automatic Gain Control for geophysical images
-%   analyticsignal         - ANALYITICSIGNAL  Analytic signal of potential field data
+%   analyticsignal         - ANALYITICSIGNAL Analytic signal of potential field data
 %   freqderiv              - Derivatives computed via the frequency domain.
 %   horizderiv             - Horizontal derivatives of 2D image
 %   irelief                - Interactive Relief Shading
@@ -99,36 +99,36 @@
 % GREYTRANS
 %
 % Files
-%   adjcontrast            - Adjusts image contrast using sigmoid function.
-%   adjgamma               - Adjusts image gamma.
-%   agc                    - Automatic Gain Control for geophysical images
-%   extractfields          - Separates fields from a video frame.
-%   greytrans              - Interactive greyscale manipulation of an image (RGB or greyscale)
-%   histeqfloat            - Floating point image histogram equalisation
-%   histtruncate           - Truncates ends of an image histogram.
-%   interpfields           - Interpolates lines on a field extracted from a video frame.
-%   normalise              - Normalises image values to 0-1, or to desired mean and variance
-%   remapim                - Remaps image intensity values
+%   adjcontrast   - Adjusts image contrast using sigmoid function.
+%   adjgamma      - Adjusts image gamma.
+%   agc           - Automatic Gain Control for geophysical images
+%   extractfields - Separates fields from a video frame.
+%   greytrans     - Interactive greyscale manipulation of an image (RGB or greyscale)
+%   histeqfloat   - Floating point image histogram equalisation
+%   histtruncate  - Truncates ends of an image histogram.
+%   interpfields  - Interpolates lines on a field extracted from a video frame.
+%   normalise     - Normalises image values to 0-1, or to desired mean and variance
+%   remapim       - Remaps image intensity values
 %
 % LINESEGMENTS
 %
 % Files
-%   cleanedgelist          - remove short edges from a set of edgelists
-%   drawedgelist           - plots pixels in edgelists
-%   edgelink               - Link edge points in an image into lists
-%   edgelist2image         - transfers edgelist data back into a 2D image array
-%   filledgegaps           - Fills small gaps in a binary edge map image
-%   findendsjunctions      - find junctions and endings in a line/edge image
-%   findisolatedpixels     - FINDENDSJUNCTIONS - find isolated pixels in a binary image
-%   lineseg                - Form straight line segements from an edge list.
-%   maxlinedev             - Find max deviation from a line in an edge contour.
-%   selectseg              - Interactive selection of linesegments with mouse.
+%   cleanedgelist      - remove short edges from a set of edgelists
+%   drawedgelist       - plots pixels in edgelists
+%   edgelink           - Link edge points in an image into lists
+%   edgelist2image     - transfers edgelist data back into a 2D image array
+%   filledgegaps       - Fills small gaps in a binary edge map image
+%   findendsjunctions  - find junctions and endings in a line/edge image
+%   findisolatedpixels - FINDENDSJUNCTIONS find isolated pixels in a binary image
+%   lineseg            - Form straight line segements from an edge list.
+%   maxlinedev         - Find max deviation from a line in an edge contour.
+%   selectseg          - Interactive selection of linesegments with mouse.
 %
 % MATCH
 %
 % Files
-%   matchbycorrelation     - match image feature points by correlation
-%   matchbymonogenicphase  - match image feature points using monogenic phase data
+%   matchbycorrelation    - match image feature points by correlation
+%   matchbymonogenicphase - match image feature points using monogenic phase data
 %
 % MISC
 %
@@ -146,7 +146,7 @@
 %   clouds                 - CLOUDS
 %   cmyk2rgb               - Basic conversion of CMYK colour table to RGB
 %   cubicroots             - finds real valued roots of cubic
-%   dbscan                 - clustering algorithm
+%   dbscan                 - DBSCAN clustering algorithm
 %   deres                  - Deresolves an image.
 %   derespolar             - Desresolves image in polar coordinates.
 %   digipts                - digitise points in an image
@@ -194,6 +194,7 @@
 %   superquad              - generates a superquadratic surface
 %   supertorus             - generates  a 'supertorus' surface
 %   svddemo                - DEMO of SVD and eigenvalues for a 2x2 transformation matrix
+%   syncshow               - Show multiple images/figures with axes linked for pan and zoom
 %   testdbscan             - Program to test/demonstrate the DBSCAN clustering algorithm
 %   togglefigs             - Convenient switching between figures to aid comparison
 %   viewlabspace           - Visualisation of L*a*b* space
@@ -204,126 +205,126 @@
 % PHASECONGRUENCY
 %
 % Files
-%   dispfeat               - Displays feature types as detected by PHASECONG.
-%   gaborconvolve          - function for convolving image with log-Gabor filters
-%   highpassmonogenic      - Compute phase and amplitude on highpass images via monogenic filters
-%   loggabor               - LOGGABOR
-%   monofilt               - Apply monogenic filters to an image to obtain 2D analytic signal
-%   noisecomp              - Function for denoising an image
-%   odot                   - Demonstrates odot and oslash operators on 1D signal
-%   phasecong              - Computes phase congruency on an image.
-%   phasecong2             - Computes edge and corner phase congruency in an image.
-%   phasecong3             - Computes edge and corner phase congruency in an image.
-%   phasecongmono          - phase congruency of an image using monogenic filters
-%   phasesym               - Function for computing phase symmetry on an image.
-%   phasesymmono           - phase symmetry of an image using monogenic filters
-%   plotgaborfilters       - Plots log-Gabor filters
-%   ppdrc                  - Phase Preserving Dynamic Range Compression
-%   spatialgabor           - applies single oriented gabor filter to an image
-%   step2line              - Generate test image interpolating a step to a line.
+%   dispfeat          - Displays feature types as detected by PHASECONG.
+%   gaborconvolve     - function for convolving image with log-Gabor filters
+%   highpassmonogenic - Compute phase and amplitude on highpass images via monogenic filters
+%   loggabor          - LOGGABOR
+%   monofilt          - Apply monogenic filters to an image to obtain 2D analytic signal
+%   noisecomp         - Function for denoising an image
+%   odot              - Demonstrates odot and oslash operators on 1D signal
+%   phasecong         - Computes phase congruency on an image.
+%   phasecong2        - Computes edge and corner phase congruency in an image.
+%   phasecong3        - Computes edge and corner phase congruency in an image.
+%   phasecongmono     - phase congruency of an image using monogenic filters
+%   phasesym          - Function for computing phase symmetry on an image.
+%   phasesymmono      - phase symmetry of an image using monogenic filters
+%   plotgaborfilters  - Plots log-Gabor filters
+%   ppdrc             - Phase Preserving Dynamic Range Compression
+%   spatialgabor      - applies single oriented gabor filter to an image
+%   step2line         - Generate test image interpolating a step to a line.
 %
 % PROJECTIVE
 %
 % Files
-%   affinefundmatrix       - computes affine fundamental matrix from 4 or more points
-%   cameraproject          - Projects 3D points into camera image 
-%   camstruct              - Construct a camera structure 
-%   camstruct2projmatrix   - CAMSTRUCT2PROJMATRIX
-%   circle                 - Draws a circle.
-%   circleintersect        - Finds intersection of two circles.
-%   decomposecamera        - Decomposition of a camera projection matrix
-%   digiplane              - Digitise and transform points within a planar region in an image.
-%   equalAngleConstraint   - equalAngleConstraint - Affine transform constraints given two equal angles.
-%   findinverselensdist    - Find inverse radial lens distortion parameters
-%   fundfromcameras        - Fundamental matrix from camera matrices
-%   fundmatrix             - computes fundamental matrix from 8 or more points
-%   hcross                 - Homogeneous cross product, result normalised to s = 1.
-%   hline                  - Plot 2D lines defined in homogeneous coordinates.
-%   hnormalise             - Normalises array of homogeneous coordinates to a scale of 1
-%   homography1d           - computes 1D homography
-%   homography2d           - computes 2D homography
-%   homogreprojerr         - HOMOGREPROJERR
-%   homoTrans              - homogeneous transformation of points
-%   idealimagepts          - Ideal image points with no distortion.
-%   imagept2plane          - Project image points to a plane and return their 3D locations
-%   imTrans                - Homogeneous transformation of an image.
-%   imTransD               - Homogeneous transformation of an image.
-%   knownAngleConstraint   - knownAngleConstraint - Affine transform constraints given a known angle.
-%   lengthRatioConstraint  - lengthRatioConstraint - Affine transform constraints given a length ratio.
-%   makehomogeneous        - Appends a scale of 1 to array inhomogeneous coordinates 
-%   makeinhomogeneous      - Converts homogeneous coords to inhomogeneous coordinates 
-%   normalise2dpts         - normalises 2D homogeneous points
-%   plotcamera             - Plots graphical representation of camera(s) showing pose
-%   plotPoint              - Plots point with specified mark and optional text label.
-%   projmatrix2camstruct   - Projection matrix to camera structure
-%   ray2raydist            - Minimum distance between two 3D rays
-%   rq3                    - RQ decomposition of 3x3 matrix
-%   skew                   - Constructs 3x3 skew-symmetric matrix from 3-vector
-%   solvestereopt          - Homogeneous linear solution of a stereo point
-%   undistortimage         - Removes lens distortion from an image
+%   affinefundmatrix      - computes affine fundamental matrix from 4 or more points
+%   cameraproject         - Projects 3D points into camera image 
+%   camstruct             - Construct a camera structure 
+%   camstruct2projmatrix  - CAMSTRUCT2PROJMATRIX
+%   circle                - Draws a circle.
+%   circleintersect       - Finds intersection of two circles.
+%   decomposecamera       - Decomposition of a camera projection matrix
+%   digiplane             - Digitise and transform points within a planar region in an image.
+%   equalAngleConstraint  - Affine transform constraints given two equal angles.
+%   findinverselensdist   - Find inverse radial lens distortion parameters
+%   fundfromcameras       - Fundamental matrix from camera matrices
+%   fundmatrix            - computes fundamental matrix from 8 or more points
+%   hcross                - Homogeneous cross product, result normalised to s = 1.
+%   hline                 - Plot 2D lines defined in homogeneous coordinates.
+%   hnormalise            - Normalises array of homogeneous coordinates to a scale of 1
+%   homography1d          - computes 1D homography
+%   homography2d          - computes 2D homography
+%   homogreprojerr        - HOMOGREPROJERR
+%   homoTrans             - homogeneous transformation of points
+%   idealimagepts         - Ideal image points with no distortion.
+%   imagept2plane         - Project image points to a plane and return their 3D locations
+%   imTrans               - Homogeneous transformation of an image.
+%   imTransD              - Homogeneous transformation of an image.
+%   knownAngleConstraint  - Affine transform constraints given a known angle.
+%   lengthRatioConstraint - Affine transform constraints given a length ratio.
+%   makehomogeneous       - Appends a scale of 1 to array inhomogeneous coordinates 
+%   makeinhomogeneous     - Converts homogeneous coords to inhomogeneous coordinates 
+%   normalise2dpts        - normalises 2D homogeneous points
+%   plotcamera            - Plots graphical representation of camera(s) showing pose
+%   plotPoint             - Plots point with specified mark and optional text label.
+%   projmatrix2camstruct  - Projection matrix to camera structure
+%   ray2raydist           - Minimum distance between two 3D rays
+%   rq3                   - RQ decomposition of 3x3 matrix
+%   skew                  - Constructs 3x3 skew-symmetric matrix from 3-vector
+%   solvestereopt         - Homogeneous linear solution of a stereo point
+%   undistortimage        - Removes lens distortion from an image
 %
 % ROBUST
 %
 % Files
-%   fitline                - Least squares fit of a line to a set of points
-%   fitline3d              - Fits a line to a set of 3D points
-%   fitplane               - solves coefficients of plane fitted to 3 or more points
-%   iscolinear             - are 3 points colinear
-%   randomsample           - selects n random items from an array
-%   ransac                 - Robustly fits a model to data with the RANSAC algorithm
-%   ransacfitaffinefund    - fits affine fundamental matrix using RANSAC
-%   ransacfitfundmatrix    - fits fundamental matrix using RANSAC
-%   ransacfitfundmatrix7   - fits fundamental matrix using RANSAC
-%   ransacfithomography    - fits 2D homography using RANSAC
-%   ransacfitline          - fits line to 3D array of points using RANSAC
-%   ransacfitplane         - fits plane to 3D array of points using RANSAC
+%   fitline              - Least squares fit of a line to a set of points
+%   fitline3d            - Fits a line to a set of 3D points
+%   fitplane             - solves coefficients of plane fitted to 3 or more points
+%   iscolinear           - are 3 points colinear
+%   randomsample         - selects n random items from an array
+%   ransac               - Robustly fits a model to data with the RANSAC algorithm
+%   ransacfitaffinefund  - fits affine fundamental matrix using RANSAC
+%   ransacfitfundmatrix  - fits fundamental matrix using RANSAC
+%   ransacfitfundmatrix7 - fits fundamental matrix using RANSAC
+%   ransacfithomography  - fits 2D homography using RANSAC
+%   ransacfitline        - fits line to 3D array of points using RANSAC
+%   ransacfitplane       - fits plane to 3D array of points using RANSAC
 %
 % ROTATIONS
 %
 % Files
-%   angleaxis2matrix       - converts angle-axis descriptor to 4x4 homogeneous
-%   angleaxisrotate        - uses angle axis descriptor to rotate vectors
-%   dhtrans                - computes Denavit Hartenberg matrix
-%   homotrans              - Homogeneous transformation of points/lines
-%   inveuler               - inverse of Euler transform
-%   invht                  - inverse of a homogeneous transformation matrix
-%   invrpy                 - inverse of Roll Pitch Yaw transform
-%   matrix2angleaxis       - Homogeneous matrix to angle-axis description
-%   matrix2quaternion      - Homogeneous matrix to quaternion
-%   newangleaxis           - Constructs angle-axis descriptor
-%   newquaternion          - Construct quaternion 
-%   normaliseangleaxis     - normalises angle-axis descriptor
-%   plotframe              - plots a coordinate frame specified by a homogeneous transform 
-%   quaternion2matrix      - Quaternion to a 4x4 homogeneous transformation matrix
-%   quaternionconjugate    - Conjugate of a quaternion
-%   quaternionproduct      - Computes product of two quaternions
-%   quaternionrotate       - Rotates a 3D vector by a quaternion 
-%   rotx                   - Homogeneous transformation for a rotation about the x axis
-%   roty                   - Homogeneous transformation for a rotation about the y axis
-%   rotz                   - Homogeneous transformation for a rotation about the z axis
-%   trans                  - Homogeneous transformation for a translation by x, y, z
-%   vector2quaternion      - embeds 3-vector in a quaternion representation
+%   angleaxis2matrix    - converts angle-axis descriptor to 4x4 homogeneous
+%   angleaxisrotate     - uses angle axis descriptor to rotate vectors
+%   dhtrans             - computes Denavit Hartenberg matrix
+%   homotrans           - Homogeneous transformation of points/lines
+%   inveuler            - inverse of Euler transform
+%   invht               - inverse of a homogeneous transformation matrix
+%   invrpy              - inverse of Roll Pitch Yaw transform
+%   matrix2angleaxis    - Homogeneous matrix to angle-axis description
+%   matrix2quaternion   - Homogeneous matrix to quaternion
+%   newangleaxis        - Constructs angle-axis descriptor
+%   newquaternion       - Construct quaternion 
+%   normaliseangleaxis  - normalises angle-axis descriptor
+%   plotframe           - plots a coordinate frame specified by a homogeneous transform 
+%   quaternion2matrix   - Quaternion to a 4x4 homogeneous transformation matrix
+%   quaternionconjugate - Conjugate of a quaternion
+%   quaternionproduct   - Computes product of two quaternions
+%   quaternionrotate    - Rotates a 3D vector by a quaternion 
+%   rotx                - Homogeneous transformation for a rotation about the x axis
+%   roty                - Homogeneous transformation for a rotation about the y axis
+%   rotz                - Homogeneous transformation for a rotation about the z axis
+%   trans               - Homogeneous transformation for a translation by x, y, z
+%   vector2quaternion   - embeds 3-vector in a quaternion representation
 %
 % SHAPELET
 %
 % Files
-%   frankotchellappa       - Generates integrable surface from gradients
-%   grad2slanttilt         - gradient in x y to slant tilt
-%   needleplotgrad         - needleplot of 3D surface from gradient data
-%   needleplotst           - needleplot of 3D surface from slant tilt data
-%   shapeletsurf           - reconstructs surface from surface normals using shapelets
-%   slanttilt2grad         - slant and tilt to gradient in x y 
-%   testp                  - Function to make ramps test surface for shape from shapelet testing
+%   frankotchellappa - Generates integrable surface from gradients
+%   grad2slanttilt   - gradient in x y to slant tilt
+%   needleplotgrad   - needleplot of 3D surface from gradient data
+%   needleplotst     - needleplot of 3D surface from slant tilt data
+%   shapeletsurf     - reconstructs surface from surface normals using shapelets
+%   slanttilt2grad   - slant and tilt to gradient in x y 
+%   testp            - FUNCTION to make ramps test surface for shape from shapelet testing
 %
 % SHAPES
 %
 % Files
-%   drawfaces              - Draws triangular faces defined by vertices and face vertex lists
-%   geodome                - Generates geodesic sphere 
-%   gplot3d                - Plot graph, as in "graph theory".
-%   icosahedron            - Generates vertices and graph of icosahedron
-%   superquad              - generates a superquadratic surface
-%   supertorus             - generates  a 'supertorus' surface
+%   drawfaces   - Draws triangular faces defined by vertices and face vertex lists
+%   geodome     - Generates geodesic sphere 
+%   gplot3d     - Plot graph, as in "graph theory".
+%   icosahedron - Generates vertices and graph of icosahedron
+%   superquad   - generates a superquadratic surface
+%   supertorus  - generates  a 'supertorus' surface
 %
 % SPATIAL
 %
@@ -340,7 +341,7 @@
 %   filterregionproperties - Filters regions on their property values
 %   finddisconnected       - find groupings of disconnected labeled regions
 %   gaussfilt              - Small wrapper function for convenient Gaussian filtering
-%   harris                 - Harris - Harris corner detector
+%   harris                 - Harris corner detector
 %   hessianfeatures        - Computes determiant of hessian features in an image.
 %   hysthresh              - Hysteresis thresholding
 %   impad                  - pads the boundary of an image.
@@ -367,5 +368,3 @@
 %   spdbscan               - SuperPixel DBSCAN clustering for image segmentation
 %   subpix2d               - Sub-pixel locations in 2D image
 %   subpix3d               - Sub-pixel locations in 3D volume
-%
-

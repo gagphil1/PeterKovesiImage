@@ -1,4 +1,4 @@
-% MAKECOLORCET - Constructs the COLORCET function
+%MAKECOLORCET Constructs the COLORCET function
 %
 % Usage: makecolorcet
 %

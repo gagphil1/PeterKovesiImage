@@ -1,4 +1,4 @@
-% CUBICROOTS - finds real valued roots of cubic
+%CUBICROOTS finds real valued roots of cubic
 %
 % Usage: root = cubicroots(a,b,c,d)
 %

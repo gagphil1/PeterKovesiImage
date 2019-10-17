@@ -1,4 +1,4 @@
-% VIEWLABSPACE2  Visualisation of L*a*b* space
+%VIEWLABSPACE2 Visualisation of L*a*b* space
 %
 % Usage:    viewlabspace2(dtheta)
 %

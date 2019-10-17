@@ -1,4 +1,4 @@
-% MAP2QGISSTYLE Writes colour maps to QGIS style file
+%MAP2QGISSTYLE Writes colour maps to QGIS style file
 %
 %  Usage: map2qgisstyle(map, mapname, filename)
 %

@@ -1,4 +1,4 @@
-% PPDRC Phase Preserving Dynamic Range Compression
+%PPDRC Phase Preserving Dynamic Range Compression
 %
 % Generates a series of dynamic range compressed images at different scales.
 % This function is designed to reveal subtle features within high dynamic range
@@ -43,7 +43,15 @@
 %                      only one wavelength is specified the image is returned 
 %                      directly, and not as a one element cell array.
 %
-% Note when specifying the array 'wavelength' it is suggested that you use
+% Important: Scaling of the image affects the results. If your image has values
+% of order 1 or less it is useful to scale the image up a few orders of
+% magnitude. The reason is that when the frequency amplitudes are attenuated we
+% add one before taking the log to avoid obtaining negative results for values
+% less than one. Thus if v is small log(1 + v) will not be a good approximation
+% to log(v). However, if you scale the image by say, 1000 then log(1 + 1000*v)
+% will be a reasonable approximation to log(1000*v).
+%
+% When specifying the array 'wavelength' it is suggested that you use
 % wavelengths that increase in a geometric series.  You can use the function
 % GEOSERIES to conveniently do this
 % 

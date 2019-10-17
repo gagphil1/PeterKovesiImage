@@ -1,4 +1,4 @@
-% EXTRACTFIELDS  - Separates fields from a video frame.
+%EXTRACTFIELDS Separates fields from a video frame.
 %
 % Function to separate fields from a video frame
 % and (optionally) interpolate intermediate lines

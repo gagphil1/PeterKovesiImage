@@ -1,4 +1,4 @@
-% SUBPIX2D   Sub-pixel locations in 2D image
+%SUBPIX2D Sub-pixel locations in 2D image
 %
 % Usage:    [rs, cs] = subpix2d(r, c, L);
 %
@@ -36,10 +36,7 @@
 % and Simoncelli's approach? **
 
 % Copyright (c) 2010 Peter Kovesi
-% Centre for Exploration Targeting
-% School of Earth and Environment
-% The University of Western Australia
-% peter.kovesi at uwa edu au
+% www.peterkovesi.com/matlabfns/
 %
 % Permission is hereby granted, free of charge, to any person obtaining a copy
 % of this software and associated documentation files (the "Software"), to deal

@@ -1,4 +1,4 @@
-% LOGISTICWEIGHTING  Weighting function based on the logistics function
+%LOGISTICWEIGHTING Weighting function based on the logistics function
 % 
 % Adaptation of the generalised logistics function for defining the variation of
 % a weighting function for blending images (among other things).

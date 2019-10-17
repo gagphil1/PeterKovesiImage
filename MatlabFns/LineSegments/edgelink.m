@@ -1,4 +1,4 @@
-% EDGELINK - Link edge points in an image into lists
+%EDGELINK Link edge points in an image into lists
 %
 % Usage: [edgelist edgeim, etype] = edgelink(im, minlength, location)
 %

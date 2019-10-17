@@ -1,4 +1,4 @@
-% GENERATELABSLICE Generates RGB image of slice through CIELAB space
+%GENERATELABSLICE Generates RGB image of slice through CIELAB space
 %
 % Usage: rgbim = generatelabslice(L, flip);
 %

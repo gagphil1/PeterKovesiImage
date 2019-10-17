@@ -1,4 +1,4 @@
-% ROTX - Homogeneous transformation for a rotation about the x axis
+%ROTX Homogeneous transformation for a rotation about the x axis
 %
 % Usage: T = rotx(theta)
 %
@@ -7,11 +7,8 @@
 %
 % See also: TRANS, ROTY, ROTZ, INVHT
 
-% Copyright (c) 2001 Peter Kovesi
-% School of Computer Science & Software Engineering
-% The University of Western Australia
-% pk at csse uwa edu au
-% http://www.csse.uwa.edu.au/
+% Peter Kovesi 2001
+% peterkovesi.com
 
 function T = rotx(theta)
 

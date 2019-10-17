@@ -1,4 +1,4 @@
-% IMSPECT - Plots image amplitude spectrum averaged over all orientations.
+%IMSPECT Plots image amplitude spectrum averaged over all orientations.
 %
 % Usage:  [amp, f, slope] = imspect(im, nbins, lowcut)
 %                                          \     /
@@ -21,10 +21,8 @@
 %
 % See also: PERFFT2
 
-% Copyright (c) 2001-2003 Peter Kovesi
-% School of Computer Science & Software Engineering
-% The University of Western Australia
-% http://www.csse.uwa.edu.au/
+% Copyright (c) Peter Kovesi
+% www.peterkovesi.com
 % 
 % Permission is hereby granted, free of charge, to any person obtaining a copy
 % of this software and associated documentation files (the "Software"), to deal
@@ -54,6 +52,7 @@ function [amp, f, slope] = imspect(im, nbins, lowcut)
     fcount = ones(1, nbins);
     
     mag = fftshift(abs(perfft2(double(im))));  % Amplitude spectrum
+    % mag = fftshift(abs(fft2(double(im))));  % Amplitude spectrum
 
     % Generate a matrix 'radius' every element of which has a value
     % given by its distance from the centre.  This is used to index

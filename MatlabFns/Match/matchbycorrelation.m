@@ -1,4 +1,4 @@
-% MATCHBYCORRELATION - match image feature points by correlation
+%MATCHBYCORRELATION match image feature points by correlation
 %
 % Function generates putative matches between previously detected
 % feature points in two images by looking for points that are maximally

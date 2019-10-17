@@ -1,4 +1,4 @@
-% COLOURMAPPATH Plots the path of a colour map through colour space
+%COLOURMAPPATH Plots the path of a colour map through colour space
 %
 % Usage: colourmappath(map, param_name, value, ....)
 %

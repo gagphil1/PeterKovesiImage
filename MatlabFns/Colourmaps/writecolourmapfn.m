@@ -1,4 +1,4 @@
-% WRITECOLOURMAPFN   Creates a MATLAB function file from a Nx3 colourmap 
+%WRITECOLOURMAPFN Creates a MATLAB function file from a Nx3 colourmap 
 %
 % Usage: writecolourmapfn(map, fname)
 %

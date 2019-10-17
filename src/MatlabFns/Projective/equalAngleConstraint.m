@@ -26,11 +26,11 @@
 
 function [c, r] = equalAngleConstraint(la1, lb1, la2, lb2)
 
-a1 = -1a1(2)/la1(1);   % direction of line la1
-b1 = -1b1(2)/lb1(1);   % direction of line lb1
+a1 = -la1(2)/la1(1);   % direction of line la1
+b1 = -lb1(2)/lb1(1);   % direction of line lb1
 
-a2 = -1a2(2)/la2(1);   % direction of line la2
-b2 = -1b2(2)/lb2(1);   % direction of line lb2
+a2 = -la2(2)/la2(1);   % direction of line la2
+b2 = -lb2(2)/lb2(1);   % direction of line lb2
 
 c = [(a1*b2 - b1*a2)/(a1 - b1 - a2 + b2), 0];
 

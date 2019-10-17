@@ -1,4 +1,4 @@
-% SINERAMP  - Generates sine on a ramp colour map test image
+%SINERAMP Generates sine on a ramp colour map test image
 %
 % The test image consists of a sine wave superimposed on a ramp function The
 % amplitude of the sine wave is modulated from its full value at the top of the

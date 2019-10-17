@@ -1,4 +1,4 @@
-% NOISEONF - Creates 1/f spectrum noise images.
+%NOISEONF Creates 1/f spectrum noise images.
 %
 % Function to create noise images having 1/f amplitude spectum properties.
 % When displayed as a surface these images also generate great landscape

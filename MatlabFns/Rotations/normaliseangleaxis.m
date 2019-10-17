@@ -1,4 +1,4 @@
-% NORMALISEANGLEAXIS - normalises angle-axis descriptor
+%NORMALISEANGLEAXIS normalises angle-axis descriptor
 %
 % Function normalises theta so that it lies in the range -pi to pi to ensure
 % one-to-one mapping between angle-axis descriptor and resulting rotation
@@ -13,10 +13,7 @@
 %           ANGLEAXISROTATE
 
 % Copyright (c) 2008 Peter Kovesi
-% School of Computer Science & Software Engineering
-% The University of Western Australia
-% pk at csse uwa edu au
-% http://www.csse.uwa.edu.au/
+% peterkovesi.com
 
 function t2 = normaliseangleaxis(t)
     

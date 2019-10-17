@@ -1,4 +1,4 @@
-% SHOWDIVIM - Displays image with diverging colour map
+%SHOWDIVIM Displays image with diverging colour map
 %
 % For data to be displayed correctly with a diverging colour map it is
 % important that the data values are respected so that the reference value in

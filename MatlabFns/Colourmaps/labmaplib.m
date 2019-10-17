@@ -1,4 +1,4 @@
-% LABMAPLIB Library of colour maps designed in CIELAB or RGB space
+%LABMAPLIB Library of colour maps designed in CIELAB or RGB space
 %
 % Usage:  1:  [map, name, desc] = labmaplib(I, param_name, value ...)
 %         2:  labmaplib

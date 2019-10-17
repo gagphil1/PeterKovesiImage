@@ -1,4 +1,4 @@
-% SHOWLOGFFT - Displays log amplitude spectrum of an fft.
+%SHOWLOGFFT Displays log amplitude spectrum of an fft.
 %
 % Usage:  showlogfft(ft, figNo)
 %

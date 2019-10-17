@@ -1,4 +1,4 @@
-% HIGHPASSFILTER  - Constructs a high-pass butterworth filter.
+%HIGHPASSFILTER Constructs a high-pass butterworth filter.
 %
 % usage: f = highpassfilter(sze, cutoff, n)
 % 
@@ -11,11 +11,9 @@
 % The frequency origin of the returned filter is at the corners.
 %
 % See also: LOWPASSFILTER, HIGHBOOSTFILTER, BANDPASSFILTER
-%
+
 % Copyright (c) 1999 Peter Kovesi
-% School of Computer Science & Software Engineering
-% The University of Western Australia
-% http://www.csse.uwa.edu.au/
+% www.peterkovesi.com/matlabfns
 % 
 % Permission is hereby granted, free of charge, to any person obtaining a copy
 % of this software and associated documentation files (the "Software"), to deal

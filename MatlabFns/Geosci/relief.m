@@ -1,4 +1,4 @@
-% RELIEF  Generates relief shaded image
+%RELIEF Generates relief shaded image
 %
 % Usage:  shadeim = relief(im, azimuth, elevation, dx, rgbim)
 %
@@ -113,8 +113,8 @@ function [n1, n2, n3] = surfacenormals(im, gradscale, loggrad)
     % p = dz/dx, q = dz/dy
 
     [p,q] = derivative5(im, 'x', 'y');
-    p = p*gradscale;
-    q = q*gradscale;
+    p = imsetborder(p*gradscale, 2, 'replicate');
+    q = imsetborder(q*gradscale, 2, 'replicate');
     
     % If specified take logs of gradient.
     % Note that taking the log of the surface gradients will produce a surface

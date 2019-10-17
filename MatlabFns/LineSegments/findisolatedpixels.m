@@ -1,4 +1,4 @@
-% FINDENDSJUNCTIONS - find isolated pixels in a binary image
+%FINDENDSJUNCTIONS find isolated pixels in a binary image
 %
 % Usage: [r, c] = findisolatedpixels(b)
 % 

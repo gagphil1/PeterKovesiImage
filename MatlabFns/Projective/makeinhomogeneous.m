@@ -1,4 +1,4 @@
-% MAKEINHOMOGENEOUS - Converts homogeneous coords to inhomogeneous coordinates 
+%MAKEINHOMOGENEOUS Converts homogeneous coords to inhomogeneous coordinates 
 %
 % Usage:  x = makehomogeneous(hx)
 %

@@ -1,4 +1,4 @@
-% FILTERGRID Generates grid for constructing frequency domain filters
+%FILTERGRID Generates grid for constructing frequency domain filters
 %
 % Usage:  [radius, u1, u2] = filtergrid(rows, cols)
 %         [radius, u1, u2] = filtergrid([rows, cols])

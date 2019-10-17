@@ -1,4 +1,4 @@
-% COLOURBLIND - Simulate colour appearance for colour blind viewers
+%COLOURBLIND Simulate colour appearance for colour blind viewers
 %
 % Usage: rgbblind = colourblind(rgb, pdt)
 %

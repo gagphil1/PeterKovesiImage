@@ -7,4 +7,4 @@ MatlabFns.zip
 
 ## or Makefile downloads files here
 target/
-*.html~
+*.*~

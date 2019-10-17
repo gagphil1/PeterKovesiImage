@@ -1,4 +1,4 @@
-% BILATERALMAP Generates a bilateral colourmap
+%BILATERALMAP Generates a bilateral colourmap
 %
 % This function generate a colourmap where the first half has one hue and the
 % second half has another hue. Saturation varies linearly from 0 in the middle

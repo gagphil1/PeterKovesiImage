@@ -1,4 +1,4 @@
-% DEMO of SVD and eigenvalues for a 2x2 transformation matrix
+%DEMO of SVD and eigenvalues for a 2x2 transformation matrix
 %
 % Usage: svddemo(M)
 %     where M is a 2x2 matrix

@@ -1,4 +1,4 @@
-% TERNARYCOLOURS Determine 3 basis colours for a ternary image
+%TERNARYCOLOURS Determine 3 basis colours for a ternary image
 %
 % This function determines 3 basis colours for constructing ternary/radiometric
 % images.  Ideally these are isoluminant and have the same chroma.  While this

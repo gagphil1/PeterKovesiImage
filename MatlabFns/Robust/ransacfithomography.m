@@ -1,4 +1,4 @@
-% RANSACFITHOMOGRAPHY - fits 2D homography using RANSAC
+%RANSACFITHOMOGRAPHY fits 2D homography using RANSAC
 %
 % Usage:   [H, inliers] = ransacfithomography(x1, x2, t)
 %

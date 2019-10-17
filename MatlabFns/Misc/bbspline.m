@@ -1,4 +1,4 @@
-% BBSPLINE - Basic B-spline
+%BBSPLINE Basic B-spline
 %
 % Usage:  S = bbspline(P, k, N)
 % 

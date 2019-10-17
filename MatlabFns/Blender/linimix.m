@@ -1,4 +1,4 @@
-% LINIMIX  An Interactive Image for viewing multiple images
+%LINIMIX An Interactive Image for viewing multiple images
 %
 % Usage:  linimix(im, B, figNo, XY)
 %

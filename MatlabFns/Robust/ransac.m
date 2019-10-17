@@ -1,4 +1,4 @@
-% RANSAC - Robustly fits a model to data with the RANSAC algorithm
+%RANSAC Robustly fits a model to data with the RANSAC algorithm
 %
 % Usage:
 %
@@ -117,6 +117,7 @@
 % December 2008 - Octave compatibility mods
 % June     2009 - Argument 'MaxTrials' corrected to 'maxTrials'!
 % January  2013 - Separate code path for Octave no longer needed
+% Nov      2018 - N initialised at maxTrials to allow for initial trial having no inliers.
 
 function [M, inliers] = ransac(x, fittingfn, distfn, degenfn, s, t, feedback, ...
                                maxDataTrials, maxTrials)
@@ -136,7 +137,7 @@ function [M, inliers] = ransac(x, fittingfn, distfn, degenfn, s, t, feedback, ..
     bestM = NaN;      % Sentinel value allowing detection of solution failure.
     trialcount = 0;
     bestscore =  0;
-    N = 1;            % Dummy initialisation for number of trials.
+    N = maxTrials;    % Dummy initialisation for number of trials.
     
     while N > trialcount
         

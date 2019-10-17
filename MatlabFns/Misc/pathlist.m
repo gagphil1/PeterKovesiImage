@@ -1,4 +1,4 @@
-% PATHLIST  Produces a cell array of directories along a directory path
+%PATHLIST Produces a cell array of directories along a directory path
 %
 % Usage:  plist = pathlist(fullpath)
 %

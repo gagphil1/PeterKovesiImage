@@ -1,4 +1,4 @@
-% STRENDSWITH - tests if a string ends with a specified substring
+%STRENDSWITH tests if a string ends with a specified substring
 %
 % Usage: b = strendswith(str, substr)
 %

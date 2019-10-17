@@ -1,4 +1,4 @@
-% READIMAGEJLUTFILE Reads lut colourmap file as used by ImageJ
+%READIMAGEJLUTFILE Reads lut colourmap file as used by ImageJ
 %
 % Usage: map = readimagejlutfile(fname)
 %

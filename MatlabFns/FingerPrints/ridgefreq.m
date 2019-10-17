@@ -1,4 +1,4 @@
-% RIDGEFREQ - Calculates a ridge frequency image
+%RIDGEFREQ Calculates a ridge frequency image
 %
 % Function to estimate the fingerprint ridge frequency across a
 % fingerprint image. This is done by considering blocks of the image and

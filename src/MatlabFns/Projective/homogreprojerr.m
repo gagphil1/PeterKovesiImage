@@ -42,4 +42,4 @@ function d2 = homogreprojerr(H, x1, x2)
     x1t = hnormalise(x1t);
     x2t = hnormalise(x2t);    
     
-    d2 = sum( (x1-x1t).^2  + (x2-x2t).^2) );
+    d2 = sum( (x1-x1t).^2  + (x2-x2t).^2) ;

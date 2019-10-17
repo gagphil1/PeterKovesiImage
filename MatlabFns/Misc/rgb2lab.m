@@ -1,4 +1,4 @@
-% RGB2LAB - RGB to L*a*b* colour space
+%RGB2LAB RGB to L*a*b* colour space
 %
 % Usage: Lab = rgb2lab(im, wp)
 %

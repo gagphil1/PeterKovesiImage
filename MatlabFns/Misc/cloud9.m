@@ -1,4 +1,4 @@
-% CLOUD9 - Cloud movie of 1/f noise.
+%CLOUD9 Cloud movie of 1/f noise.
 %
 % Function to create a movie of noise images having 1/f amplitude spectum
 % properties.

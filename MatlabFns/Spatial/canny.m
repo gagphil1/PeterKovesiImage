@@ -1,4 +1,4 @@
-% CANNY - Canny edge detection
+%CANNY Canny edge detection
 %
 % Function to perform Canny edge detection. 
 %
@@ -10,7 +10,8 @@
 %
 % Returns:     gradient - edge strength image (gradient amplitude)
 %              or       - orientation image (in degrees 0-180, positive
-%                         anti-clockwise)
+%                         anti-clockwise). An orientation of 0 corresponds to
+%                         a horizontal gradient/vertical edge.
 %
 %
 % To obtain a binary edge image one would typically do the following
@@ -20,10 +21,8 @@
 %
 % See also:  NONMAXSUP, HYSTHRESH, DERIVATIVE5
 
-% Copyright (c) 1999-2010 Peter Kovesi
-% Centre for Exploration Targeting
-% The University of Western Australia
-% http://www.csse.uwa.edu.au/~pk/research/matlabfns/
+% Copyright (c) 1999-2013 Peter Kovesi
+% www.peterkovesi.com/matlabfns/
 % 
 % Permission is hereby granted, free of charge, to any person obtaining a copy
 % of this software and associated documentation files (the "Software"), to deal

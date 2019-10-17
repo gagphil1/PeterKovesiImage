@@ -1,4 +1,4 @@
-% RQ3   RQ decomposition of 3x3 matrix
+%RQ3 RQ decomposition of 3x3 matrix
 %
 % Usage: [R,Q] = rq3(A)
 %

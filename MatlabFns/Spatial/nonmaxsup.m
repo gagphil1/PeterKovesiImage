@@ -1,4 +1,4 @@
-% NONMAXSUP - Non-maxima suppression
+%NONMAXSUP Non-maxima suppression
 %
 % Usage:
 %          [im,location] = nonmaxsup(inimage, orient, radius);
@@ -43,8 +43,7 @@
 % pixels to determine if they are local maxima.
 
 % Copyright (c) 1996-2013 Peter Kovesi
-% Centre for Exploration Targeting
-% The University of Western Australia
+% www.peterkovesi.com/matlabfns/
 % 
 % Permission is hereby granted, free of charge, to any person obtaining a copy
 % of this software and associated documentation files (the "Software"), to deal

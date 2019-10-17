@@ -1,4 +1,4 @@
-% NEEDLEPLOTGRAD - needleplot of 3D surface from gradient data
+%NEEDLEPLOTGRAD needleplot of 3D surface from gradient data
 %
 % Usage:  needleplotgrad(dzdx, dzdy, len, spacing)
 %

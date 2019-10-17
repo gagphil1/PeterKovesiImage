@@ -1,4 +1,4 @@
-% IMTRANS - Homogeneous transformation of an image.
+%IMTRANS Homogeneous transformation of an image.
 %
 % Applies a geometric transform to an image
 %

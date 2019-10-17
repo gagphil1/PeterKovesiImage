@@ -1,4 +1,4 @@
-% WAVENUMBERGRID  Generate wavenumber grid for frequency domain filtering
+%WAVENUMBERGRID Generate wavenumber grid for frequency domain filtering
 %
 % Usage:  [k, kx, ky] = wavenumbergrid(rows, cols, dx, dy)
 %         [k, kx, ky] = wavenumbergrid([rows, cols], dx, dy)

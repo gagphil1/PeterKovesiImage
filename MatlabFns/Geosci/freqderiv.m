@@ -1,4 +1,4 @@
-% FREQDERIV - Derivatives computed via the frequency domain.
+%FREQDERIV Derivatives computed via the frequency domain.
 %
 % Usage: [dx, dy, dv] = freqderiv(im, hx, hy, order, padding)
 %

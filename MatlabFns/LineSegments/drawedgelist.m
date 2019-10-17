@@ -1,4 +1,4 @@
-% DRAWEDGELIST - plots pixels in edgelists
+%DRAWEDGELIST plots pixels in edgelists
 %
 % Usage:    h =  drawedgelist(edgelist, rowscols, lw, col, figno, mid)
 %

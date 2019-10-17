@@ -1,4 +1,4 @@
-% CIRCSINE  Generates circular sine wave grating
+%CIRCSINE Generates circular sine wave grating
 % Can also be use to construct phase congruent patterns
 %
 % Usage:    im = circsine(sze, wavelength, nScales, ampExponent, offset, p, trim)

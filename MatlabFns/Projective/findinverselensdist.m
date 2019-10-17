@@ -1,4 +1,4 @@
-% FINDINVERSELENSDIST - Find inverse radial lens distortion parameters
+%FINDINVERSELENSDIST Find inverse radial lens distortion parameters
 % 
 % Usage: [ik1, ik2, maxerr] = findinverselensdist(k1, k2, rmax, fig)
 %

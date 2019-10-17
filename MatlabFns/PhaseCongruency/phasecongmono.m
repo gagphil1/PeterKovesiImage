@@ -1,4 +1,4 @@
-% PHASECONGMONO - phase congruency of an image using monogenic filters
+%PHASECONGMONO phase congruency of an image using monogenic filters
 %
 % This code is considerably faster than PHASECONG3 but you may prefer the
 % output from PHASECONG3's oriented filters.

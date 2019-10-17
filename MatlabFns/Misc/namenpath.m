@@ -1,4 +1,4 @@
-% NAMENPATH   Returns filename and its path from a full filename
+%NAMENPATH Returns filename and its path from a full filename
 %
 % Usage: [name, pth] = namenpath(fullfilename)
 %

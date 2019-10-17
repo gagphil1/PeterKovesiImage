@@ -1,4 +1,4 @@
-%  PSF2 - Generates point spread functions for use with deconvolution fns.
+%PSF2 Generates point spread functions for use with deconvolution fns.
 %
 %  This function can generate a variety function shapes based around the
 %  Butterworth filter.  In plan view the filter can be elliptical and at

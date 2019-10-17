@@ -1,4 +1,4 @@
-% SHOWANGULARIM - Displays image of angular data
+%SHOWANGULARIM Displays image of angular data
 %
 % For angular data to be rendered correctly it is important that the data values
 % are respected so that data values are correctly assigned to specific entries

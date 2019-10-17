@@ -1,4 +1,4 @@
-% RGB2LMS - RGB to LMS colour space conversion
+%RGB2LMS RGB to LMS colour space conversion
 %
 % Usage: LMS = rgb2lms(rgb)
 %

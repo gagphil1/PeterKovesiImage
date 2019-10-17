@@ -1,4 +1,4 @@
-% PLOTRIDGEORIENT - plot of ridge orientation data
+%PLOTRIDGEORIENT plot of ridge orientation data
 %
 % Usage:   plotridgeorient(orient, spacing, im, figno)
 %

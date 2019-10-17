@@ -1,4 +1,4 @@
-% LINESEG - Form straight line segements from an edge list.
+%LINESEG Form straight line segements from an edge list.
 %
 % Usage: seglist = lineseg(edgelist, tol)
 %

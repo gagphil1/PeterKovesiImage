@@ -1,4 +1,4 @@
-% DIGIPTS - digitise points in an image
+%DIGIPTS digitise points in an image
 %
 % Function to digitise points in an image.  Points are digitised by clicking
 % with the left mouse button.  Clicking any other button terminates the

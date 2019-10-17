@@ -1,4 +1,4 @@
-% HOMOGRAPHY2D - computes 2D homography
+%HOMOGRAPHY2D computes 2D homography
 %
 % Usage:   H = homography2d(x1, x2)
 %          H = homography2d(x)

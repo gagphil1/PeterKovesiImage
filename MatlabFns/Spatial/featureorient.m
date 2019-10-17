@@ -1,4 +1,4 @@
-% FEATUREORIENT - Estimates the local orientation of features in an edgeimage
+%FEATUREORIENT Estimates the local orientation of features in an edgeimage
 %
 % Usage:  orientim = featureorient(im, gradientsigma,...
 %                                      blocksigma, ...
@@ -36,9 +36,7 @@
 % See also: NONMAXSUP, RIDGEORIENT
 
 % Copyright (c) 1996-2013 Peter Kovesi
-% Centre for Exploration Targeting
-% The University of Western Australia
-% peter.kovesi at uwa edu au
+% www.peterkovesi.com/matlabfns/
 % 
 % Permission is hereby granted, free of charge, to any person obtaining a copy
 % of this software and associated documentation files (the "Software"), to deal

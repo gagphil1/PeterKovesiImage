@@ -1,4 +1,4 @@
-% MAP2IMAGEJLUTFILE   Writes a colourmap to a .lut file for use with ImageJ
+%MAP2IMAGEJLUTFILE Writes a colourmap to a .lut file for use with ImageJ
 %
 % Usage: map2imagejlutfile(map, fname)
 %

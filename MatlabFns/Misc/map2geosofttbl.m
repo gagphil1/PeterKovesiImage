@@ -1,4 +1,4 @@
-% MAP2GEOSOFTTBL Converts MATLAB colourmap to Geosoft .tbl file
+%MAP2GEOSOFTTBL Converts MATLAB colourmap to Geosoft .tbl file
 %
 % Usage:  map2geosofttbl(map, filename, cmyk)
 %

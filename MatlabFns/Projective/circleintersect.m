@@ -1,4 +1,4 @@
-% CIRCLEINTERSECT - Finds intersection of two circles.
+%CIRCLEINTERSECT Finds intersection of two circles.
 %
 % Function to return the intersection points between two circles
 % given their centres and radi.

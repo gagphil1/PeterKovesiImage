@@ -1,4 +1,4 @@
-% PBSPLINE - Basic Periodic B-spline
+%PBSPLINE Basic Periodic B-spline
 %
 % Usage:  S = pbspline(P, k, N)
 % 

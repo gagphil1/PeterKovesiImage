@@ -1,4 +1,4 @@
-% POINTINCONVEXPOLY Determine if a 2D point is within a convex polygon
+%POINTINCONVEXPOLY Determine if a 2D point is within a convex polygon
 %
 % Usage:  v = pointinconvexpoly(p, poly)
 %

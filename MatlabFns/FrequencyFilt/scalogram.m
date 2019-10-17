@@ -1,4 +1,4 @@
-% SCALOGRAM - Calculates phase and amplitude scalogram of 1D signal.
+%SCALOGRAM Calculates phase and amplitude scalogram of 1D signal.
 %
 % Usage: 
 % [amplitude, phase] = scalogram(signal, minwavelength, mult, nscales,...

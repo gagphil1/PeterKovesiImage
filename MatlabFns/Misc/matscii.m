@@ -1,4 +1,4 @@
-% MATSCII - Function to generate ASCII images
+%MATSCII Function to generate ASCII images
 %
 %  Usage: picci = matscii(im, width, gamma, filename)
 %

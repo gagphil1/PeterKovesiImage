@@ -1,4 +1,4 @@
-% ANISODIFF - Anisotropic diffusion.
+%ANISODIFF Anisotropic diffusion.
 %
 % Usage:
 %  diff = anisodiff(im, niter, kappa, lambda, option)
@@ -32,10 +32,7 @@
 % 12(7):629-639, July 1990.
 %
 % Peter Kovesi  
-% School of Computer Science & Software Engineering
-% The University of Western Australia
-% pk @ csse uwa edu au
-% http://www.csse.uwa.edu.au
+% www.peterkovesi.com/matlabfns/
 %
 % June 2000  original version.       
 % March 2002 corrected diffusion eqn No 2.

@@ -1,4 +1,4 @@
-% DERES -  Deresolves an image.
+%DERES Deresolves an image.
 %
 % Usage:  im2 = deres(im, s)
 %

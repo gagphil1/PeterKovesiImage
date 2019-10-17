@@ -1,4 +1,4 @@
-% HORIZDERIV  Horizontal derivatives of 2D image
+%HORIZDERIV Horizontal derivatives of 2D image
 %
 % Usage: [hdx, hdy] = horizderiv(im, order, padding)
 %

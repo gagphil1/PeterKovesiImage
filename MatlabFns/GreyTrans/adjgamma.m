@@ -1,4 +1,4 @@
-% ADJGAMMA - Adjusts image gamma.
+%ADJGAMMA Adjusts image gamma.
 %
 % function g = adjgamma(im, g)
 %
