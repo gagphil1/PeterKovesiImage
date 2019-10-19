@@ -6,8 +6,7 @@ folders = {'Blender', 'Colourmaps', 'FingerPrints', 'FrequencyFilt', ...
        
 src_path = fullfile('src', 'MatlabFns');
 dst_path = 'MatlabFns';
-exp_path = 'examples';
-hlp_path = fullfile(dst_path, 'help');
+hlp_path = dst_path;
 
 %%
 if exist(dst_path, 'dir')
@@ -21,7 +20,6 @@ for f = folders
     
     src_folder = fullfile(src_path, folder);
     dst_folder = fullfile(dst_path, folder);
-    exp_folder = fullfile(dst_path, exp_path, folder);
     
     files = dir(src_folder);
     
@@ -37,7 +35,7 @@ for f = folders
             fprintf('    => %s.\n', g.name);
             copy_file( ...
                 fullfile(src_folder, g.name), ...
-                exp_folder);                
+                fullfile(dst_folder, g.name));                
         end
     end
     
@@ -69,7 +67,7 @@ for f = folders
     fclose(g_file);
 end
 
-fclose(h_file);    
+fclose(h_file);
 
 %% help files
 files = dir(src_path);
@@ -82,3 +80,7 @@ for idx = 1:length(files)
     end
 end
 copyfile(fullfile(src_path, 'WWWImages'),  fullfile(hlp_path, 'WWWImages'));
+
+%% Setup batch
+copyfile('matlabfns_setup.m', dst_path);
+copyfile('matlabfns_doc.m', dst_path);
